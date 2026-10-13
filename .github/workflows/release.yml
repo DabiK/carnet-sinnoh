@@ -1,0 +1,87 @@
+name: Release
+
+# Pushing a tag such as v0.6.1 builds the APK, tries it on an emulator and publishes it.
+on:
+  push:
+    tags: ['v*']
+
+env:
+  # SHA-256 of the certificate every published APK must be signed with. Android only updates an
+  # installed app in place when this does not change.
+  SIGNING_CERTIFICATE: 63019cb50abd2e16333ef0b8bce24d8d448cf387f1bd6f1179034d7358fceddd
+
+jobs:
+  smoke:
+    name: Install and launch on an emulator
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: 21
+      - name: Select the SDK versions available on the runner
+        run: |
+          echo "ANDROID_BUILD_TOOLS=$(ls "$ANDROID_HOME/build-tools" | sort -V | tail -1)" >> "$GITHUB_ENV"
+          echo "ANDROID_PLATFORM=$(ls "$ANDROID_HOME/platforms" | grep -E '^android-[0-9]+$' | sort -V | tail -1)" >> "$GITHUB_ENV"
+      - name: Enable hardware acceleration for the emulator
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+      # This job holds no secret: the APK it tries is signed with a throwaway key.
+      - uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 33
+          arch: x86_64
+          target: google_apis
+          script: bash scripts/smoke-emulator.sh
+
+  publish:
+    name: Build, sign and publish the APK
+    needs: smoke
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: 21
+      - name: Select the SDK versions available on the runner
+        run: |
+          echo "ANDROID_BUILD_TOOLS=$(ls "$ANDROID_HOME/build-tools" | sort -V | tail -1)" >> "$GITHUB_ENV"
+          echo "ANDROID_PLATFORM=$(ls "$ANDROID_HOME/platforms" | grep -E '^android-[0-9]+$' | sort -V | tail -1)" >> "$GITHUB_ENV"
+      - name: Check that the tag matches the app version
+        run: |
+          version="$(grep -o 'android:versionName="[^"]*"' AndroidManifest.xml | cut -d'"' -f2)"
+          [ "v$version" = "$GITHUB_REF_NAME" ] || { echo "Tag $GITHUB_REF_NAME does not match versionName $version" >&2; exit 1; }
+          echo "VERSION=$version" >> "$GITHUB_ENV"
+      - name: Build and sign
+        env:
+          CARNET_KEYSTORE_BASE64: ${{ secrets.CARNET_KEYSTORE_BASE64 }}
+          CARNET_KEYSTORE_PASSWORD: ${{ secrets.CARNET_KEYSTORE_PASSWORD }}
+        run: |
+          mkdir -p build
+          printf '%s' "$CARNET_KEYSTORE_BASE64" | base64 --decode > build/dev.keystore
+          bash scripts/build.sh
+          rm build/dev.keystore
+      - name: Check the signing certificate
+        run: |
+          actual="$("$ANDROID_HOME/build-tools/$ANDROID_BUILD_TOOLS/apksigner" verify --print-certs build/carnet-sinnoh.apk | sed -n 's/^Signer #1 certificate SHA-256 digest: //p')"
+          [ "$actual" = "$SIGNING_CERTIFICATE" ] || { echo "Unexpected signing certificate: $actual" >&2; exit 1; }
+      - name: Publish the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          apk="carnet-sinnoh-$VERSION.apk"
+          cp build/carnet-sinnoh.apk "$apk"
+          {
+            sed "s/{{VERSION}}/$VERSION/g" .github/release-notes.md
+            printf '\n`%s`\n\nSHA-256 : `%s`\n' "$apk" "$(sha256sum "$apk" | cut -d' ' -f1)"
+          } > notes.md
+          gh release create "$GITHUB_REF_NAME" "$apk" --title "Carnet Sinnoh $VERSION" --notes-file notes.md

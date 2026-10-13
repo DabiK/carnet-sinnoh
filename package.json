@@ -1,6 +1,6 @@
 {
   "name": "carnet-sinnoh",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "private": true,
   "description": "Compagnon Android hors ligne pour Pokémon Diamant Étincelant, pensé pour l'écran du bas de l'AYN Thor.",
   "engines": {

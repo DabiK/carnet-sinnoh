@@ -1,7 +1,36 @@
 # Tutoriel d'installation
 
-De l'ordinateur vierge à l'application lancée sur la console. Comptez une vingtaine de minutes, surtout du
-téléchargement.
+Deux chemins, selon ce que vous voulez faire.
+
+- **Juste utiliser l'application** : [installez l'APK](#installer-lapk-sans-rien-compiler). Deux minutes, rien
+  à installer sur un ordinateur.
+- **Modifier le code ou construire vous-même** : suivez le reste du tutoriel, à partir des
+  [prérequis](#prérequis). Comptez une vingtaine de minutes, surtout du téléchargement.
+
+## Installer l'APK, sans rien compiler
+
+Tout se fait sur la console.
+
+1. Ouvrez le navigateur de la console et allez sur
+   <https://github.com/DabiK/carnet-sinnoh/releases/latest>.
+2. Dans « Assets », touchez le fichier `carnet-sinnoh-….apk` pour le télécharger.
+3. Ouvrez le fichier téléchargé. Android prévient que l'installation depuis cette source n'est pas
+   autorisée : touchez **Paramètres**, activez **Autoriser cette source**, revenez en arrière.
+4. Touchez **Installer**, puis **Ouvrir**.
+
+L'application est complète : catalogue, sprites et carte sont dedans, elle fonctionne hors ligne. Il faut
+Android 8 ou plus.
+
+- **Sur une AYN Thor**, pour l'ouvrir toujours sur l'écran du bas : dans Cocoon, sélectionnez _Carnet
+  Sinnoh_, appuyez sur Y, puis _Modifier l'application → écran du bas_.
+- **Pour mettre à jour**, refaites la même chose avec la nouvelle version : elle remplace l'ancienne et votre
+  carnet est conservé.
+- **Un avertissement Play Protect** peut apparaître, comme pour toute application installée hors du Play
+  Store : choisissez « Installer quand même ».
+- La **lecture automatique du jeu** est facultative et se règle à part :
+  [activer le bridge mémoire](#5-facultatif--activer-le-bridge-mémoire).
+
+Le reste de ce document ne concerne que ceux qui veulent construire l'application eux-mêmes.
 
 - [Prérequis](#prérequis)
 - [1. Récupérer le projet](#1-récupérer-le-projet)

@@ -55,7 +55,14 @@ est facultatif et expérimental ; sans lui, tout fonctionne en saisie manuelle.
 Aucun serveur, aucun compte, aucune requête réseau depuis l'application : la permission `INTERNET` ne sert qu'à
 la connexion locale à Eden. Détails dans [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
-## Démarrage rapide
+## Installer
+
+**Sans rien compiler** : téléchargez l'APK de la
+[dernière version](https://github.com/DabiK/carnet-sinnoh/releases/latest) depuis le navigateur de la console,
+ouvrez-le et acceptez l'installation. C'est tout : l'application est complète et fonctionne hors ligne. Le
+[tutoriel](docs/INSTALLATION.md) détaille ces trois gestes.
+
+## Construire soi-même
 
 Il faut un JDK et le SDK Android en ligne de commande. Le
 **[tutoriel d'installation](docs/INSTALLATION.md)** détaille chaque étape, de l'ordinateur vierge à la console.
