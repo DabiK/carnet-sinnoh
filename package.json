@@ -1,0 +1,24 @@
+{
+  "name": "carnet-sinnoh",
+  "version": "0.6.0",
+  "private": true,
+  "description": "Compagnon Android hors ligne pour Pokémon Diamant Étincelant, pensé pour l'écran du bas de l'AYN Thor.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "npm run test:unit && npm run test:ui && npm run test:bridge && npm run test:catalog",
+    "test:unit": "node --test \"tests/unit/*.test.mjs\"",
+    "test:ui": "node --test --test-concurrency=1 \"tests/webview/*.test.mjs\"",
+    "test:bridge": "bash scripts/test-bridge.sh",
+    "test:catalog": "cd catalog && python3 -m unittest -q test_catalog",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "assets": "node scripts/fetch-assets.mjs",
+    "build": "bash scripts/build.sh"
+  },
+  "devDependencies": {
+    "prettier": "3.9.10",
+    "prettier-plugin-java": "2.11.0"
+  }
+}

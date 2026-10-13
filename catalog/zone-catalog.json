@@ -1,0 +1,4010 @@
+{
+  "version": 1,
+  "source": "https://teamlumi.github.io/luminescent-team-dev/rom-hacking/dictionary/zones",
+  "zones": {
+    "0": {
+      "id": 0,
+      "name": "Féli-Cité",
+      "regionKey": "felicite",
+      "detail": "",
+      "code": "C01"
+    },
+    "1": {
+      "id": 1,
+      "name": "Féli-Cité",
+      "regionKey": "felicite",
+      "detail": "Boutique",
+      "code": "C01FS0101"
+    },
+    "2": {
+      "id": 2,
+      "name": "Féli-Cité",
+      "regionKey": "felicite",
+      "detail": "Centre Pokémon",
+      "code": "C01PC0101"
+    },
+    "3": {
+      "id": 3,
+      "name": "Féli-Cité",
+      "regionKey": "felicite",
+      "detail": "Centre Pokémon",
+      "code": "C01PC0102"
+    },
+    "4": {
+      "id": 4,
+      "name": "Féli-Cité",
+      "regionKey": "felicite",
+      "detail": "Centre Pokémon",
+      "code": "C01PC0103"
+    },
+    "5": {
+      "id": 5,
+      "name": "Féli-Cité",
+      "regionKey": "felicite",
+      "detail": "",
+      "code": "C01R0101"
+    },
+    "6": {
+      "id": 6,
+      "name": "Féli-Cité",
+      "regionKey": "felicite",
+      "detail": "",
+      "code": "C01R0102"
+    },
+    "7": {
+      "id": 7,
+      "name": "Féli-Cité",
+      "regionKey": "felicite",
+      "detail": "",
+      "code": "C01R0103"
+    },
+    "8": {
+      "id": 8,
+      "name": "Féli-Cité",
+      "regionKey": "felicite",
+      "detail": "",
+      "code": "C01R0201"
+    },
+    "9": {
+      "id": 9,
+      "name": "Féli-Cité",
+      "regionKey": "felicite",
+      "detail": "",
+      "code": "C01R0202"
+    },
+    "10": {
+      "id": 10,
+      "name": "Féli-Cité",
+      "regionKey": "felicite",
+      "detail": "",
+      "code": "C01R0203"
+    },
+    "11": {
+      "id": 11,
+      "name": "Féli-Cité",
+      "regionKey": "felicite",
+      "detail": "",
+      "code": "C01R0204"
+    },
+    "12": {
+      "id": 12,
+      "name": "Féli-Cité",
+      "regionKey": "felicite",
+      "detail": "",
+      "code": "C01R0205"
+    },
+    "13": {
+      "id": 13,
+      "name": "Féli-Cité",
+      "regionKey": "felicite",
+      "detail": "",
+      "code": "C01R0206"
+    },
+    "14": {
+      "id": 14,
+      "name": "Féli-Cité",
+      "regionKey": "felicite",
+      "detail": "",
+      "code": "C01R0207"
+    },
+    "15": {
+      "id": 15,
+      "name": "Féli-Cité",
+      "regionKey": "felicite",
+      "detail": "",
+      "code": "C01R0208"
+    },
+    "16": {
+      "id": 16,
+      "name": "Féli-Cité",
+      "regionKey": "felicite",
+      "detail": "Bâtiment",
+      "code": "C01R0301"
+    },
+    "17": {
+      "id": 17,
+      "name": "Féli-Cité",
+      "regionKey": "felicite",
+      "detail": "Bâtiment",
+      "code": "C01R0302"
+    },
+    "18": {
+      "id": 18,
+      "name": "Féli-Cité",
+      "regionKey": "felicite",
+      "detail": "",
+      "code": "C01R0501"
+    },
+    "19": {
+      "id": 19,
+      "name": "Féli-Cité",
+      "regionKey": "felicite",
+      "detail": "",
+      "code": "C01R0502"
+    },
+    "20": {
+      "id": 20,
+      "name": "Féli-Cité",
+      "regionKey": "felicite",
+      "detail": "",
+      "code": "C01R0601"
+    },
+    "21": {
+      "id": 21,
+      "name": "Féli-Cité",
+      "regionKey": "felicite",
+      "detail": "",
+      "code": "C01R0701"
+    },
+    "22": {
+      "id": 22,
+      "name": "Féli-Cité",
+      "regionKey": "felicite",
+      "detail": "Bâtiment",
+      "code": "C01R0801"
+    },
+    "23": {
+      "id": 23,
+      "name": "Féli-Cité",
+      "regionKey": "felicite",
+      "detail": "Bâtiment",
+      "code": "C01R0802"
+    },
+    "24": {
+      "id": 24,
+      "name": "Joliberges",
+      "regionKey": "joliberges",
+      "detail": "",
+      "code": "C02"
+    },
+    "25": {
+      "id": 25,
+      "name": "Joliberges",
+      "regionKey": "joliberges",
+      "detail": "Boutique",
+      "code": "C02FS0101"
+    },
+    "26": {
+      "id": 26,
+      "name": "Joliberges",
+      "regionKey": "joliberges",
+      "detail": "Arène",
+      "code": "C02GYM0101"
+    },
+    "27": {
+      "id": 27,
+      "name": "Joliberges",
+      "regionKey": "joliberges",
+      "detail": "Centre Pokémon",
+      "code": "C02PC0101"
+    },
+    "28": {
+      "id": 28,
+      "name": "Joliberges",
+      "regionKey": "joliberges",
+      "detail": "Centre Pokémon",
+      "code": "C02PC0102"
+    },
+    "29": {
+      "id": 29,
+      "name": "Joliberges",
+      "regionKey": "joliberges",
+      "detail": "Centre Pokémon",
+      "code": "C02PC0103"
+    },
+    "30": {
+      "id": 30,
+      "name": "Joliberges",
+      "regionKey": "joliberges",
+      "detail": "",
+      "code": "C02R0101"
+    },
+    "31": {
+      "id": 31,
+      "name": "Joliberges",
+      "regionKey": "joliberges",
+      "detail": "",
+      "code": "C02R0102"
+    },
+    "32": {
+      "id": 32,
+      "name": "Joliberges",
+      "regionKey": "joliberges",
+      "detail": "",
+      "code": "C02R0103"
+    },
+    "33": {
+      "id": 33,
+      "name": "Joliberges",
+      "regionKey": "joliberges",
+      "detail": "Bâtiment",
+      "code": "C02R0201"
+    },
+    "34": {
+      "id": 34,
+      "name": "Joliberges",
+      "regionKey": "joliberges",
+      "detail": "Bâtiment",
+      "code": "C02R0301"
+    },
+    "35": {
+      "id": 35,
+      "name": "Joliberges",
+      "regionKey": "joliberges",
+      "detail": "Bâtiment",
+      "code": "C02R0401"
+    },
+    "36": {
+      "id": 36,
+      "name": "Joliberges",
+      "regionKey": "joliberges",
+      "detail": "Bâtiment",
+      "code": "C02R0501"
+    },
+    "37": {
+      "id": 37,
+      "name": "Joliberges",
+      "regionKey": "joliberges",
+      "detail": "Bâtiment",
+      "code": "C02R0601"
+    },
+    "38": {
+      "id": 38,
+      "name": "Charbourg",
+      "regionKey": "charbourg",
+      "detail": "",
+      "code": "C03"
+    },
+    "39": {
+      "id": 39,
+      "name": "Charbourg",
+      "regionKey": "charbourg",
+      "detail": "Boutique",
+      "code": "C03FS0101"
+    },
+    "40": {
+      "id": 40,
+      "name": "Charbourg",
+      "regionKey": "charbourg",
+      "detail": "Arène",
+      "code": "C03GYM0101"
+    },
+    "41": {
+      "id": 41,
+      "name": "Charbourg",
+      "regionKey": "charbourg",
+      "detail": "Centre Pokémon",
+      "code": "C03PC0101"
+    },
+    "42": {
+      "id": 42,
+      "name": "Charbourg",
+      "regionKey": "charbourg",
+      "detail": "Centre Pokémon",
+      "code": "C03PC0102"
+    },
+    "43": {
+      "id": 43,
+      "name": "Charbourg",
+      "regionKey": "charbourg",
+      "detail": "Centre Pokémon",
+      "code": "C03PC0103"
+    },
+    "44": {
+      "id": 44,
+      "name": "Charbourg",
+      "regionKey": "charbourg",
+      "detail": "Bâtiment",
+      "code": "C03R0101"
+    },
+    "45": {
+      "id": 45,
+      "name": "Charbourg",
+      "regionKey": "charbourg",
+      "detail": "Bâtiment",
+      "code": "C03R0102"
+    },
+    "46": {
+      "id": 46,
+      "name": "Charbourg",
+      "regionKey": "charbourg",
+      "detail": "Bâtiment",
+      "code": "C03R0201"
+    },
+    "47": {
+      "id": 47,
+      "name": "Charbourg",
+      "regionKey": "charbourg",
+      "detail": "Bâtiment",
+      "code": "C03R0202"
+    },
+    "48": {
+      "id": 48,
+      "name": "Charbourg",
+      "regionKey": "charbourg",
+      "detail": "Bâtiment",
+      "code": "C03R0301"
+    },
+    "49": {
+      "id": 49,
+      "name": "Charbourg",
+      "regionKey": "charbourg",
+      "detail": "",
+      "code": "C03R0401"
+    },
+    "50": {
+      "id": 50,
+      "name": "Charbourg",
+      "regionKey": "charbourg",
+      "detail": "Arène",
+      "code": "C03R0501"
+    },
+    "51": {
+      "id": 51,
+      "name": "Charbourg",
+      "regionKey": "charbourg",
+      "detail": "Bâtiment",
+      "code": "C03R0601"
+    },
+    "52": {
+      "id": 52,
+      "name": "Charbourg",
+      "regionKey": "charbourg",
+      "detail": "Bâtiment",
+      "code": "C03R0602"
+    },
+    "53": {
+      "id": 53,
+      "name": "Charbourg",
+      "regionKey": "charbourg",
+      "detail": "Bâtiment",
+      "code": "C03R0701"
+    },
+    "54": {
+      "id": 54,
+      "name": "Vestigion",
+      "regionKey": "vestigion",
+      "detail": "",
+      "code": "C04"
+    },
+    "55": {
+      "id": 55,
+      "name": "Vestigion",
+      "regionKey": "vestigion",
+      "detail": "Boutique",
+      "code": "C04FS0101"
+    },
+    "56": {
+      "id": 56,
+      "name": "Vestigion",
+      "regionKey": "vestigion",
+      "detail": "Arène",
+      "code": "C04GYM0101"
+    },
+    "57": {
+      "id": 57,
+      "name": "Vestigion",
+      "regionKey": "vestigion",
+      "detail": "Arène",
+      "code": "C04GYM0102"
+    },
+    "58": {
+      "id": 58,
+      "name": "Vestigion",
+      "regionKey": "vestigion",
+      "detail": "Centre Pokémon",
+      "code": "C04PC0101"
+    },
+    "59": {
+      "id": 59,
+      "name": "Vestigion",
+      "regionKey": "vestigion",
+      "detail": "Centre Pokémon",
+      "code": "C04PC0102"
+    },
+    "60": {
+      "id": 60,
+      "name": "Vestigion",
+      "regionKey": "vestigion",
+      "detail": "Centre Pokémon",
+      "code": "C04PC0103"
+    },
+    "61": {
+      "id": 61,
+      "name": "Vestigion",
+      "regionKey": "vestigion",
+      "detail": "",
+      "code": "C04R0101"
+    },
+    "62": {
+      "id": 62,
+      "name": "Vestigion",
+      "regionKey": "vestigion",
+      "detail": "Bâtiment",
+      "code": "C04R0201"
+    },
+    "63": {
+      "id": 63,
+      "name": "Vestigion",
+      "regionKey": "vestigion",
+      "detail": "Bâtiment",
+      "code": "C04R0202"
+    },
+    "64": {
+      "id": 64,
+      "name": "Vestigion",
+      "regionKey": "vestigion",
+      "detail": "Bâtiment",
+      "code": "C04R0203"
+    },
+    "65": {
+      "id": 65,
+      "name": "Vestigion",
+      "regionKey": "vestigion",
+      "detail": "Bâtiment",
+      "code": "C04R0204"
+    },
+    "66": {
+      "id": 66,
+      "name": "Vestigion",
+      "regionKey": "vestigion",
+      "detail": "",
+      "code": "C04R0301"
+    },
+    "67": {
+      "id": 67,
+      "name": "Vestigion",
+      "regionKey": "vestigion",
+      "detail": "",
+      "code": "C04R0302"
+    },
+    "68": {
+      "id": 68,
+      "name": "Vestigion",
+      "regionKey": "vestigion",
+      "detail": "",
+      "code": "C04R0303"
+    },
+    "69": {
+      "id": 69,
+      "name": "Vestigion",
+      "regionKey": "vestigion",
+      "detail": "",
+      "code": "C04R0401"
+    },
+    "70": {
+      "id": 70,
+      "name": "Vestigion",
+      "regionKey": "vestigion",
+      "detail": "Bâtiment",
+      "code": "C04R0501"
+    },
+    "71": {
+      "id": 71,
+      "name": "Vestigion",
+      "regionKey": "vestigion",
+      "detail": "Arène",
+      "code": "C04R0601"
+    },
+    "72": {
+      "id": 72,
+      "name": "Vestigion",
+      "regionKey": "vestigion",
+      "detail": "Bâtiment",
+      "code": "C04R0701"
+    },
+    "73": {
+      "id": 73,
+      "name": "Vestigion",
+      "regionKey": "vestigion",
+      "detail": "Bâtiment",
+      "code": "C04R0801"
+    },
+    "74": {
+      "id": 74,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "",
+      "code": "C05"
+    },
+    "75": {
+      "id": 75,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "Boutique",
+      "code": "C05FS0101"
+    },
+    "76": {
+      "id": 76,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "Arène",
+      "code": "C05GYM0101"
+    },
+    "77": {
+      "id": 77,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "Arène",
+      "code": "C05GYM0102"
+    },
+    "78": {
+      "id": 78,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "Arène",
+      "code": "C05GYM0103"
+    },
+    "79": {
+      "id": 79,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "Arène",
+      "code": "C05GYM0104"
+    },
+    "80": {
+      "id": 80,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "Arène",
+      "code": "C05GYM0105"
+    },
+    "81": {
+      "id": 81,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "Arène",
+      "code": "C05GYM0106"
+    },
+    "82": {
+      "id": 82,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "Arène",
+      "code": "C05GYM0107"
+    },
+    "83": {
+      "id": 83,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "Arène",
+      "code": "C05GYM0108"
+    },
+    "84": {
+      "id": 84,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "Arène",
+      "code": "C05GYM0109"
+    },
+    "85": {
+      "id": 85,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "Arène",
+      "code": "C05GYM0110"
+    },
+    "86": {
+      "id": 86,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "Arène",
+      "code": "C05GYM0111"
+    },
+    "87": {
+      "id": 87,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "Arène",
+      "code": "C05GYM0112"
+    },
+    "88": {
+      "id": 88,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "Arène",
+      "code": "C05GYM0113"
+    },
+    "89": {
+      "id": 89,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "Centre Pokémon",
+      "code": "C05PC0101"
+    },
+    "90": {
+      "id": 90,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "Centre Pokémon",
+      "code": "C05PC0102"
+    },
+    "91": {
+      "id": 91,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "Centre Pokémon",
+      "code": "C05PC0103"
+    },
+    "92": {
+      "id": 92,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "Bâtiment",
+      "code": "C05R0101"
+    },
+    "93": {
+      "id": 93,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "Bâtiment",
+      "code": "C05R0102"
+    },
+    "94": {
+      "id": 94,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "Bâtiment",
+      "code": "C05R0103"
+    },
+    "95": {
+      "id": 95,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "",
+      "code": "C05R0201"
+    },
+    "96": {
+      "id": 96,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "",
+      "code": "C05R0301"
+    },
+    "97": {
+      "id": 97,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "",
+      "code": "C05R0401"
+    },
+    "98": {
+      "id": 98,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "",
+      "code": "C05R0501"
+    },
+    "99": {
+      "id": 99,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "",
+      "code": "C05R0601"
+    },
+    "100": {
+      "id": 100,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "",
+      "code": "C05R0701"
+    },
+    "101": {
+      "id": 101,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "Arène",
+      "code": "C05R0801"
+    },
+    "102": {
+      "id": 102,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "Arène",
+      "code": "C05R0802"
+    },
+    "103": {
+      "id": 103,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "Arène",
+      "code": "C05R0803"
+    },
+    "104": {
+      "id": 104,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "Bâtiment",
+      "code": "C05R0901"
+    },
+    "105": {
+      "id": 105,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "Bâtiment",
+      "code": "C05R1001"
+    },
+    "106": {
+      "id": 106,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "",
+      "code": "C05R1101"
+    },
+    "107": {
+      "id": 107,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "",
+      "code": "C05R1102"
+    },
+    "108": {
+      "id": 108,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "",
+      "code": "C05R1103"
+    },
+    "109": {
+      "id": 109,
+      "name": "Unionpolis",
+      "regionKey": "unionpolis",
+      "detail": "",
+      "code": "C05R1201"
+    },
+    "110": {
+      "id": 110,
+      "name": "Verchamps",
+      "regionKey": "verchamps",
+      "detail": "",
+      "code": "C06"
+    },
+    "111": {
+      "id": 111,
+      "name": "Verchamps",
+      "regionKey": "verchamps",
+      "detail": "Boutique",
+      "code": "C06FS0101"
+    },
+    "112": {
+      "id": 112,
+      "name": "Verchamps",
+      "regionKey": "verchamps",
+      "detail": "Arène",
+      "code": "C06GYM0101"
+    },
+    "113": {
+      "id": 113,
+      "name": "Verchamps",
+      "regionKey": "verchamps",
+      "detail": "Centre Pokémon",
+      "code": "C06PC0101"
+    },
+    "114": {
+      "id": 114,
+      "name": "Verchamps",
+      "regionKey": "verchamps",
+      "detail": "Centre Pokémon",
+      "code": "C06PC0102"
+    },
+    "115": {
+      "id": 115,
+      "name": "Verchamps",
+      "regionKey": "verchamps",
+      "detail": "Centre Pokémon",
+      "code": "C06PC0103"
+    },
+    "116": {
+      "id": 116,
+      "name": "Verchamps",
+      "regionKey": "verchamps",
+      "detail": "",
+      "code": "C06R0101"
+    },
+    "117": {
+      "id": 117,
+      "name": "Verchamps",
+      "regionKey": "verchamps",
+      "detail": "",
+      "code": "C06R0102"
+    },
+    "118": {
+      "id": 118,
+      "name": "Verchamps",
+      "regionKey": "verchamps",
+      "detail": "Bâtiment",
+      "code": "C06R0201"
+    },
+    "119": {
+      "id": 119,
+      "name": "Verchamps",
+      "regionKey": "verchamps",
+      "detail": "Bâtiment",
+      "code": "C06R0301"
+    },
+    "120": {
+      "id": 120,
+      "name": "Verchamps",
+      "regionKey": "verchamps",
+      "detail": "Bâtiment",
+      "code": "C06R0401"
+    },
+    "121": {
+      "id": 121,
+      "name": "Verchamps",
+      "regionKey": "verchamps",
+      "detail": "Arène",
+      "code": "C06R0501"
+    },
+    "122": {
+      "id": 122,
+      "name": "Verchamps",
+      "regionKey": "verchamps",
+      "detail": "Bâtiment",
+      "code": "C06R0601"
+    },
+    "123": {
+      "id": 123,
+      "name": "Voilaroc",
+      "regionKey": "voilaroc",
+      "detail": "",
+      "code": "C07"
+    },
+    "124": {
+      "id": 124,
+      "name": "Voilaroc",
+      "regionKey": "voilaroc",
+      "detail": "Arène",
+      "code": "C07GYM0101"
+    },
+    "125": {
+      "id": 125,
+      "name": "Voilaroc",
+      "regionKey": "voilaroc",
+      "detail": "Centre Pokémon",
+      "code": "C07PC0101"
+    },
+    "126": {
+      "id": 126,
+      "name": "Voilaroc",
+      "regionKey": "voilaroc",
+      "detail": "Centre Pokémon",
+      "code": "C07PC0102"
+    },
+    "127": {
+      "id": 127,
+      "name": "Voilaroc",
+      "regionKey": "voilaroc",
+      "detail": "Centre Pokémon",
+      "code": "C07PC0103"
+    },
+    "128": {
+      "id": 128,
+      "name": "Voilaroc",
+      "regionKey": "voilaroc",
+      "detail": "",
+      "code": "C07R0101"
+    },
+    "129": {
+      "id": 129,
+      "name": "Voilaroc",
+      "regionKey": "voilaroc",
+      "detail": "",
+      "code": "C07R0201"
+    },
+    "130": {
+      "id": 130,
+      "name": "Voilaroc",
+      "regionKey": "voilaroc",
+      "detail": "",
+      "code": "C07R0202"
+    },
+    "131": {
+      "id": 131,
+      "name": "Voilaroc",
+      "regionKey": "voilaroc",
+      "detail": "",
+      "code": "C07R0203"
+    },
+    "132": {
+      "id": 132,
+      "name": "Voilaroc",
+      "regionKey": "voilaroc",
+      "detail": "",
+      "code": "C07R0204"
+    },
+    "133": {
+      "id": 133,
+      "name": "Voilaroc",
+      "regionKey": "voilaroc",
+      "detail": "",
+      "code": "C07R0205"
+    },
+    "134": {
+      "id": 134,
+      "name": "Voilaroc",
+      "regionKey": "voilaroc",
+      "detail": "",
+      "code": "C07R0206"
+    },
+    "135": {
+      "id": 135,
+      "name": "Voilaroc",
+      "regionKey": "voilaroc",
+      "detail": "",
+      "code": "C07R0301"
+    },
+    "136": {
+      "id": 136,
+      "name": "Voilaroc",
+      "regionKey": "voilaroc",
+      "detail": "Bâtiment",
+      "code": "C07R0401"
+    },
+    "137": {
+      "id": 137,
+      "name": "Voilaroc",
+      "regionKey": "voilaroc",
+      "detail": "Bâtiment",
+      "code": "C07R0501"
+    },
+    "138": {
+      "id": 138,
+      "name": "Voilaroc",
+      "regionKey": "voilaroc",
+      "detail": "Bâtiment",
+      "code": "C07R0601"
+    },
+    "139": {
+      "id": 139,
+      "name": "Voilaroc",
+      "regionKey": "voilaroc",
+      "detail": "Bâtiment",
+      "code": "C07R0701"
+    },
+    "140": {
+      "id": 140,
+      "name": "Voilaroc",
+      "regionKey": "voilaroc",
+      "detail": "Bâtiment",
+      "code": "C07R0801"
+    },
+    "141": {
+      "id": 141,
+      "name": "Voilaroc",
+      "regionKey": "voilaroc",
+      "detail": "",
+      "code": "C07R0901"
+    },
+    "142": {
+      "id": 142,
+      "name": "Rivamar",
+      "regionKey": "rivamar",
+      "detail": "",
+      "code": "C08"
+    },
+    "143": {
+      "id": 143,
+      "name": "Rivamar",
+      "regionKey": "rivamar",
+      "detail": "Boutique",
+      "code": "C08FS0101"
+    },
+    "144": {
+      "id": 144,
+      "name": "Rivamar",
+      "regionKey": "rivamar",
+      "detail": "Arène",
+      "code": "C08GYM0101"
+    },
+    "145": {
+      "id": 145,
+      "name": "Rivamar",
+      "regionKey": "rivamar",
+      "detail": "Arène",
+      "code": "C08GYM0102"
+    },
+    "146": {
+      "id": 146,
+      "name": "Rivamar",
+      "regionKey": "rivamar",
+      "detail": "Arène",
+      "code": "C08GYM0103"
+    },
+    "147": {
+      "id": 147,
+      "name": "Rivamar",
+      "regionKey": "rivamar",
+      "detail": "Centre Pokémon",
+      "code": "C08PC0101"
+    },
+    "148": {
+      "id": 148,
+      "name": "Rivamar",
+      "regionKey": "rivamar",
+      "detail": "Centre Pokémon",
+      "code": "C08PC0102"
+    },
+    "149": {
+      "id": 149,
+      "name": "Rivamar",
+      "regionKey": "rivamar",
+      "detail": "Centre Pokémon",
+      "code": "C08PC0103"
+    },
+    "150": {
+      "id": 150,
+      "name": "Rivamar",
+      "regionKey": "rivamar",
+      "detail": "",
+      "code": "C08R0101"
+    },
+    "151": {
+      "id": 151,
+      "name": "Rivamar",
+      "regionKey": "rivamar",
+      "detail": "Bâtiment",
+      "code": "C08R0201"
+    },
+    "152": {
+      "id": 152,
+      "name": "Rivamar",
+      "regionKey": "rivamar",
+      "detail": "Bâtiment",
+      "code": "C08R0301"
+    },
+    "153": {
+      "id": 153,
+      "name": "Rivamar",
+      "regionKey": "rivamar",
+      "detail": "Bâtiment",
+      "code": "C08R0401"
+    },
+    "154": {
+      "id": 154,
+      "name": "Rivamar",
+      "regionKey": "rivamar",
+      "detail": "Bâtiment",
+      "code": "C08R0501"
+    },
+    "155": {
+      "id": 155,
+      "name": "Rivamar",
+      "regionKey": "rivamar",
+      "detail": "Bâtiment",
+      "code": "C08R0601"
+    },
+    "156": {
+      "id": 156,
+      "name": "Rivamar",
+      "regionKey": "rivamar",
+      "detail": "Bâtiment",
+      "code": "C08R0701"
+    },
+    "157": {
+      "id": 157,
+      "name": "Rivamar",
+      "regionKey": "rivamar",
+      "detail": "",
+      "code": "C08R0801"
+    },
+    "158": {
+      "id": 158,
+      "name": "Rivamar",
+      "regionKey": "rivamar",
+      "detail": "",
+      "code": "C08R0802"
+    },
+    "159": {
+      "id": 159,
+      "name": "Frimapic",
+      "regionKey": "frimapic",
+      "detail": "",
+      "code": "C09"
+    },
+    "160": {
+      "id": 160,
+      "name": "Frimapic",
+      "regionKey": "frimapic",
+      "detail": "Boutique",
+      "code": "C09FS0101"
+    },
+    "161": {
+      "id": 161,
+      "name": "Frimapic",
+      "regionKey": "frimapic",
+      "detail": "Arène",
+      "code": "C09GYM0101"
+    },
+    "162": {
+      "id": 162,
+      "name": "Frimapic",
+      "regionKey": "frimapic",
+      "detail": "Centre Pokémon",
+      "code": "C09PC0101"
+    },
+    "163": {
+      "id": 163,
+      "name": "Frimapic",
+      "regionKey": "frimapic",
+      "detail": "Centre Pokémon",
+      "code": "C09PC0102"
+    },
+    "164": {
+      "id": 164,
+      "name": "Frimapic",
+      "regionKey": "frimapic",
+      "detail": "Centre Pokémon",
+      "code": "C09PC0103"
+    },
+    "165": {
+      "id": 165,
+      "name": "Frimapic",
+      "regionKey": "frimapic",
+      "detail": "Bâtiment",
+      "code": "C09R0101"
+    },
+    "166": {
+      "id": 166,
+      "name": "Frimapic",
+      "regionKey": "frimapic",
+      "detail": "Bâtiment",
+      "code": "C09R0201"
+    },
+    "167": {
+      "id": 167,
+      "name": "Ligue Pokémon",
+      "regionKey": "liguepokemon",
+      "detail": "",
+      "code": "C10"
+    },
+    "168": {
+      "id": 168,
+      "name": "Ligue Pokémon",
+      "regionKey": "liguepokemon",
+      "detail": "Centre Pokémon",
+      "code": "C10PC0101"
+    },
+    "169": {
+      "id": 169,
+      "name": "Ligue Pokémon",
+      "regionKey": "liguepokemon",
+      "detail": "Centre Pokémon",
+      "code": "C10PC0102"
+    },
+    "170": {
+      "id": 170,
+      "name": "Ligue Pokémon",
+      "regionKey": "liguepokemon",
+      "detail": "Centre Pokémon",
+      "code": "C10PC0103"
+    },
+    "171": {
+      "id": 171,
+      "name": "Ligue Pokémon",
+      "regionKey": "liguepokemon",
+      "detail": "",
+      "code": "C10R0101"
+    },
+    "172": {
+      "id": 172,
+      "name": "Ligue Pokémon",
+      "regionKey": "liguepokemon",
+      "detail": "",
+      "code": "C10R0102"
+    },
+    "173": {
+      "id": 173,
+      "name": "Ligue Pokémon",
+      "regionKey": "liguepokemon",
+      "detail": "",
+      "code": "C10R0103"
+    },
+    "174": {
+      "id": 174,
+      "name": "Ligue Pokémon",
+      "regionKey": "liguepokemon",
+      "detail": "",
+      "code": "C10R0104"
+    },
+    "175": {
+      "id": 175,
+      "name": "Ligue Pokémon",
+      "regionKey": "liguepokemon",
+      "detail": "",
+      "code": "C10R0105"
+    },
+    "176": {
+      "id": 176,
+      "name": "Ligue Pokémon",
+      "regionKey": "liguepokemon",
+      "detail": "",
+      "code": "C10R0106"
+    },
+    "177": {
+      "id": 177,
+      "name": "Ligue Pokémon",
+      "regionKey": "liguepokemon",
+      "detail": "",
+      "code": "C10R0107"
+    },
+    "178": {
+      "id": 178,
+      "name": "Ligue Pokémon",
+      "regionKey": "liguepokemon",
+      "detail": "",
+      "code": "C10R0108"
+    },
+    "179": {
+      "id": 179,
+      "name": "Ligue Pokémon",
+      "regionKey": "liguepokemon",
+      "detail": "",
+      "code": "C10R0109"
+    },
+    "180": {
+      "id": 180,
+      "name": "Ligue Pokémon",
+      "regionKey": "liguepokemon",
+      "detail": "",
+      "code": "C10R0110"
+    },
+    "181": {
+      "id": 181,
+      "name": "Ligue Pokémon",
+      "regionKey": "liguepokemon",
+      "detail": "",
+      "code": "C10R0111"
+    },
+    "182": {
+      "id": 182,
+      "name": "Ligue Pokémon",
+      "regionKey": "liguepokemon",
+      "detail": "",
+      "code": "C10R0112"
+    },
+    "183": {
+      "id": 183,
+      "name": "Ligue Pokémon",
+      "regionKey": "liguepokemon",
+      "detail": "",
+      "code": "C10R0113"
+    },
+    "184": {
+      "id": 184,
+      "name": "Ligue Pokémon",
+      "regionKey": "liguepokemon",
+      "detail": "",
+      "code": "C10R0114"
+    },
+    "185": {
+      "id": 185,
+      "name": "Ligue Pokémon",
+      "regionKey": "liguepokemon",
+      "detail": "",
+      "code": "C10R0115"
+    },
+    "186": {
+      "id": 186,
+      "name": "Aire de Combat",
+      "regionKey": "airedecombat",
+      "detail": "",
+      "code": "C11"
+    },
+    "187": {
+      "id": 187,
+      "name": "Aire de Combat",
+      "regionKey": "airedecombat",
+      "detail": "Boutique",
+      "code": "C11FS0101"
+    },
+    "188": {
+      "id": 188,
+      "name": "Aire de Combat",
+      "regionKey": "airedecombat",
+      "detail": "Centre Pokémon",
+      "code": "C11PC0101"
+    },
+    "189": {
+      "id": 189,
+      "name": "Aire de Combat",
+      "regionKey": "airedecombat",
+      "detail": "Centre Pokémon",
+      "code": "C11PC0102"
+    },
+    "190": {
+      "id": 190,
+      "name": "Aire de Combat",
+      "regionKey": "airedecombat",
+      "detail": "Centre Pokémon",
+      "code": "C11PC0103"
+    },
+    "191": {
+      "id": 191,
+      "name": "Aire de Combat",
+      "regionKey": "airedecombat",
+      "detail": "",
+      "code": "C11R0101"
+    },
+    "192": {
+      "id": 192,
+      "name": "Aire de Combat",
+      "regionKey": "airedecombat",
+      "detail": "",
+      "code": "C11R0201"
+    },
+    "193": {
+      "id": 193,
+      "name": "Aire de Combat",
+      "regionKey": "airedecombat",
+      "detail": "Bâtiment",
+      "code": "C11R0301"
+    },
+    "194": {
+      "id": 194,
+      "name": "Aire de Combat",
+      "regionKey": "airedecombat",
+      "detail": "Bâtiment",
+      "code": "C11R0401"
+    },
+    "195": {
+      "id": 195,
+      "name": "Mine de Charbourg",
+      "regionKey": "minedecharbourg",
+      "detail": "",
+      "code": "D01R0101"
+    },
+    "196": {
+      "id": 196,
+      "name": "Mine de Charbourg",
+      "regionKey": "minedecharbourg",
+      "detail": "",
+      "code": "D01R0102"
+    },
+    "197": {
+      "id": 197,
+      "name": "Les Éoliennes",
+      "regionKey": "leseoliennes",
+      "detail": "",
+      "code": "D02"
+    },
+    "198": {
+      "id": 198,
+      "name": "Les Éoliennes",
+      "regionKey": "leseoliennes",
+      "detail": "",
+      "code": "D02R0101"
+    },
+    "199": {
+      "id": 199,
+      "name": "Forêt de Vestigion",
+      "regionKey": "foretdevestigion",
+      "detail": "",
+      "code": "D03"
+    },
+    "200": {
+      "id": 200,
+      "name": "Forêt de Vestigion",
+      "regionKey": "foretdevestigion",
+      "detail": "",
+      "code": "D03R0101"
+    },
+    "201": {
+      "id": 201,
+      "name": "Forge Fuego",
+      "regionKey": "forgefuego",
+      "detail": "",
+      "code": "D04"
+    },
+    "202": {
+      "id": 202,
+      "name": "Forge Fuego",
+      "regionKey": "forgefuego",
+      "detail": "",
+      "code": "D04R0101"
+    },
+    "203": {
+      "id": 203,
+      "name": "Mont Couronné",
+      "regionKey": "montcouronne",
+      "detail": "",
+      "code": "D05R0101"
+    },
+    "204": {
+      "id": 204,
+      "name": "Mont Couronné",
+      "regionKey": "montcouronne",
+      "detail": "",
+      "code": "D05R0102"
+    },
+    "205": {
+      "id": 205,
+      "name": "Mont Couronné",
+      "regionKey": "montcouronne",
+      "detail": "",
+      "code": "D05R0103"
+    },
+    "206": {
+      "id": 206,
+      "name": "Mont Couronné",
+      "regionKey": "montcouronne",
+      "detail": "",
+      "code": "D05R0104"
+    },
+    "207": {
+      "id": 207,
+      "name": "Mont Couronné",
+      "regionKey": "montcouronne",
+      "detail": "",
+      "code": "D05R0105"
+    },
+    "208": {
+      "id": 208,
+      "name": "Mont Couronné",
+      "regionKey": "montcouronne",
+      "detail": "",
+      "code": "D05R0106"
+    },
+    "209": {
+      "id": 209,
+      "name": "Mont Couronné",
+      "regionKey": "montcouronne",
+      "detail": "",
+      "code": "D05R0107"
+    },
+    "210": {
+      "id": 210,
+      "name": "Mont Couronné",
+      "regionKey": "montcouronne",
+      "detail": "",
+      "code": "D05R0108"
+    },
+    "211": {
+      "id": 211,
+      "name": "Mont Couronné",
+      "regionKey": "montcouronne",
+      "detail": "",
+      "code": "D05R0109"
+    },
+    "212": {
+      "id": 212,
+      "name": "Mont Couronné",
+      "regionKey": "montcouronne",
+      "detail": "",
+      "code": "D05R0110"
+    },
+    "213": {
+      "id": 213,
+      "name": "Mont Couronné",
+      "regionKey": "montcouronne",
+      "detail": "",
+      "code": "D05R0111"
+    },
+    "214": {
+      "id": 214,
+      "name": "Mont Couronné",
+      "regionKey": "montcouronne",
+      "detail": "",
+      "code": "D05R0112"
+    },
+    "215": {
+      "id": 215,
+      "name": "Mont Couronné",
+      "regionKey": "montcouronne",
+      "detail": "",
+      "code": "D05R0113"
+    },
+    "216": {
+      "id": 216,
+      "name": "Mont Couronné",
+      "regionKey": "montcouronne",
+      "detail": "",
+      "code": "D05R0114"
+    },
+    "217": {
+      "id": 217,
+      "name": "Mont Couronné",
+      "regionKey": "montcouronne",
+      "detail": "",
+      "code": "D05R0115"
+    },
+    "218": {
+      "id": 218,
+      "name": "Mont Couronné",
+      "regionKey": "montcouronne",
+      "detail": "",
+      "code": "D05R0116"
+    },
+    "219": {
+      "id": 219,
+      "name": "Grand Marais",
+      "regionKey": "grandmarais",
+      "detail": "",
+      "code": "D06R0201"
+    },
+    "220": {
+      "id": 220,
+      "name": "Grand Marais",
+      "regionKey": "grandmarais",
+      "detail": "",
+      "code": "D06R0202"
+    },
+    "221": {
+      "id": 221,
+      "name": "Grand Marais",
+      "regionKey": "grandmarais",
+      "detail": "",
+      "code": "D06R0203"
+    },
+    "222": {
+      "id": 222,
+      "name": "Grand Marais",
+      "regionKey": "grandmarais",
+      "detail": "",
+      "code": "D06R0204"
+    },
+    "223": {
+      "id": 223,
+      "name": "Grand Marais",
+      "regionKey": "grandmarais",
+      "detail": "",
+      "code": "D06R0205"
+    },
+    "224": {
+      "id": 224,
+      "name": "Grand Marais",
+      "regionKey": "grandmarais",
+      "detail": "",
+      "code": "D06R0206"
+    },
+    "225": {
+      "id": 225,
+      "name": "Ruines de Bonville",
+      "regionKey": "ruinesdebonville",
+      "detail": "",
+      "code": "D07R0101"
+    },
+    "226": {
+      "id": 226,
+      "name": "Ruines de Bonville",
+      "regionKey": "ruinesdebonville",
+      "detail": "",
+      "code": "D07R0102"
+    },
+    "227": {
+      "id": 227,
+      "name": "Ruines de Bonville",
+      "regionKey": "ruinesdebonville",
+      "detail": "",
+      "code": "D07R0103"
+    },
+    "228": {
+      "id": 228,
+      "name": "Ruines de Bonville",
+      "regionKey": "ruinesdebonville",
+      "detail": "",
+      "code": "D07R0104"
+    },
+    "229": {
+      "id": 229,
+      "name": "Ruines de Bonville",
+      "regionKey": "ruinesdebonville",
+      "detail": "",
+      "code": "D07R0105"
+    },
+    "230": {
+      "id": 230,
+      "name": "Ruines de Bonville",
+      "regionKey": "ruinesdebonville",
+      "detail": "",
+      "code": "D07R0106"
+    },
+    "231": {
+      "id": 231,
+      "name": "Ruines de Bonville",
+      "regionKey": "ruinesdebonville",
+      "detail": "",
+      "code": "D07R0107"
+    },
+    "232": {
+      "id": 232,
+      "name": "Ruines de Bonville",
+      "regionKey": "ruinesdebonville",
+      "detail": "",
+      "code": "D07R0108"
+    },
+    "233": {
+      "id": 233,
+      "name": "Ruines de Bonville",
+      "regionKey": "ruinesdebonville",
+      "detail": "",
+      "code": "D07R0109"
+    },
+    "234": {
+      "id": 234,
+      "name": "Ruines de Bonville",
+      "regionKey": "ruinesdebonville",
+      "detail": "",
+      "code": "D07R0110"
+    },
+    "235": {
+      "id": 235,
+      "name": "Ruines de Bonville",
+      "regionKey": "ruinesdebonville",
+      "detail": "",
+      "code": "D07R0111"
+    },
+    "236": {
+      "id": 236,
+      "name": "Ruines de Bonville",
+      "regionKey": "ruinesdebonville",
+      "detail": "",
+      "code": "D07R0112"
+    },
+    "237": {
+      "id": 237,
+      "name": "Ruines de Bonville",
+      "regionKey": "ruinesdebonville",
+      "detail": "",
+      "code": "D07R0113"
+    },
+    "238": {
+      "id": 238,
+      "name": "Ruines de Bonville",
+      "regionKey": "ruinesdebonville",
+      "detail": "",
+      "code": "D07R0114"
+    },
+    "239": {
+      "id": 239,
+      "name": "Ruines de Bonville",
+      "regionKey": "ruinesdebonville",
+      "detail": "",
+      "code": "D07R0115"
+    },
+    "240": {
+      "id": 240,
+      "name": "Ruines de Bonville",
+      "regionKey": "ruinesdebonville",
+      "detail": "",
+      "code": "D07R0116"
+    },
+    "241": {
+      "id": 241,
+      "name": "Ruines de Bonville",
+      "regionKey": "ruinesdebonville",
+      "detail": "",
+      "code": "D07R0117"
+    },
+    "242": {
+      "id": 242,
+      "name": "Ruines de Bonville",
+      "regionKey": "ruinesdebonville",
+      "detail": "",
+      "code": "D07R0118"
+    },
+    "243": {
+      "id": 243,
+      "name": "Ruines de Bonville",
+      "regionKey": "ruinesdebonville",
+      "detail": "",
+      "code": "D07R0119"
+    },
+    "244": {
+      "id": 244,
+      "name": "Route Victoire",
+      "regionKey": "routevictoire",
+      "detail": "",
+      "code": "D09R0101"
+    },
+    "245": {
+      "id": 245,
+      "name": "Route Victoire",
+      "regionKey": "routevictoire",
+      "detail": "",
+      "code": "D09R0102"
+    },
+    "246": {
+      "id": 246,
+      "name": "Route Victoire",
+      "regionKey": "routevictoire",
+      "detail": "",
+      "code": "D09R0103"
+    },
+    "247": {
+      "id": 247,
+      "name": "Route Victoire",
+      "regionKey": "routevictoire",
+      "detail": "",
+      "code": "D09R0104"
+    },
+    "248": {
+      "id": 248,
+      "name": "Route Victoire",
+      "regionKey": "routevictoire",
+      "detail": "",
+      "code": "D09R0105"
+    },
+    "249": {
+      "id": 249,
+      "name": "Route Victoire",
+      "regionKey": "routevictoire",
+      "detail": "",
+      "code": "D09R0106"
+    },
+    "251": {
+      "id": 251,
+      "name": "Square Paisible",
+      "regionKey": "squarepaisible",
+      "detail": "",
+      "code": "D11R0101"
+    },
+    "252": {
+      "id": 252,
+      "name": "Chemin Rocheux",
+      "regionKey": "cheminrocheux",
+      "detail": "",
+      "code": "D12R0101"
+    },
+    "253": {
+      "id": 253,
+      "name": "Pré de Floraville",
+      "regionKey": "predefloraville",
+      "detail": "",
+      "code": "D13R0101"
+    },
+    "254": {
+      "id": 254,
+      "name": "Pré de Floraville",
+      "regionKey": "predefloraville",
+      "detail": "Bâtiment",
+      "code": "D13R0102"
+    },
+    "255": {
+      "id": 255,
+      "name": "Entrée de Charbourg",
+      "regionKey": "entreedecharbourg",
+      "detail": "",
+      "code": "D14R0101"
+    },
+    "256": {
+      "id": 256,
+      "name": "Entrée de Charbourg",
+      "regionKey": "entreedecharbourg",
+      "detail": "",
+      "code": "D14R0102"
+    },
+    "259": {
+      "id": 259,
+      "name": "Mont Abrupt",
+      "regionKey": "montabrupt",
+      "detail": "",
+      "code": "D16"
+    },
+    "260": {
+      "id": 260,
+      "name": "Mont Abrupt",
+      "regionKey": "montabrupt",
+      "detail": "",
+      "code": "D16R0101"
+    },
+    "261": {
+      "id": 261,
+      "name": "Mont Abrupt",
+      "regionKey": "montabrupt",
+      "detail": "",
+      "code": "D16R0102"
+    },
+    "262": {
+      "id": 262,
+      "name": "Mont Abrupt",
+      "regionKey": "montabrupt",
+      "detail": "",
+      "code": "D16R0103"
+    },
+    "263": {
+      "id": 263,
+      "name": "Grotte Retour",
+      "regionKey": "grotteretour",
+      "detail": "",
+      "code": "D17R0101"
+    },
+    "264": {
+      "id": 264,
+      "name": "Grotte Retour",
+      "regionKey": "grotteretour",
+      "detail": "",
+      "code": "D17R0102"
+    },
+    "265": {
+      "id": 265,
+      "name": "Grotte Retour",
+      "regionKey": "grotteretour",
+      "detail": "",
+      "code": "D17R0103"
+    },
+    "266": {
+      "id": 266,
+      "name": "Grotte Retour",
+      "regionKey": "grotteretour",
+      "detail": "",
+      "code": "D17R0104"
+    },
+    "267": {
+      "id": 267,
+      "name": "Grotte Retour",
+      "regionKey": "grotteretour",
+      "detail": "",
+      "code": "D17R0105"
+    },
+    "268": {
+      "id": 268,
+      "name": "Grotte Retour",
+      "regionKey": "grotteretour",
+      "detail": "",
+      "code": "D17R0106"
+    },
+    "269": {
+      "id": 269,
+      "name": "Grotte Retour",
+      "regionKey": "grotteretour",
+      "detail": "",
+      "code": "D17R0107"
+    },
+    "270": {
+      "id": 270,
+      "name": "Grotte Retour",
+      "regionKey": "grotteretour",
+      "detail": "",
+      "code": "D17R0108"
+    },
+    "271": {
+      "id": 271,
+      "name": "Grotte Retour",
+      "regionKey": "grotteretour",
+      "detail": "",
+      "code": "D17R0109"
+    },
+    "272": {
+      "id": 272,
+      "name": "Grotte Retour",
+      "regionKey": "grotteretour",
+      "detail": "",
+      "code": "D17R0110"
+    },
+    "273": {
+      "id": 273,
+      "name": "Grotte Retour",
+      "regionKey": "grotteretour",
+      "detail": "",
+      "code": "D17R0111"
+    },
+    "274": {
+      "id": 274,
+      "name": "Grotte Retour",
+      "regionKey": "grotteretour",
+      "detail": "",
+      "code": "D17R0112"
+    },
+    "275": {
+      "id": 275,
+      "name": "Grotte Retour",
+      "regionKey": "grotteretour",
+      "detail": "",
+      "code": "D17R0113"
+    },
+    "276": {
+      "id": 276,
+      "name": "Grotte Retour",
+      "regionKey": "grotteretour",
+      "detail": "",
+      "code": "D17R0114"
+    },
+    "277": {
+      "id": 277,
+      "name": "Grotte Retour",
+      "regionKey": "grotteretour",
+      "detail": "",
+      "code": "D17R0115"
+    },
+    "278": {
+      "id": 278,
+      "name": "Grotte Retour",
+      "regionKey": "grotteretour",
+      "detail": "",
+      "code": "D17R0116"
+    },
+    "279": {
+      "id": 279,
+      "name": "Grotte Retour",
+      "regionKey": "grotteretour",
+      "detail": "",
+      "code": "D17R0117"
+    },
+    "280": {
+      "id": 280,
+      "name": "Grotte Retour",
+      "regionKey": "grotteretour",
+      "detail": "",
+      "code": "D17R0118"
+    },
+    "281": {
+      "id": 281,
+      "name": "Grotte Retour",
+      "regionKey": "grotteretour",
+      "detail": "",
+      "code": "D17R0119"
+    },
+    "282": {
+      "id": 282,
+      "name": "Grotte Retour",
+      "regionKey": "grotteretour",
+      "detail": "",
+      "code": "D17R0120"
+    },
+    "283": {
+      "id": 283,
+      "name": "Grotte Retour",
+      "regionKey": "grotteretour",
+      "detail": "",
+      "code": "D17R0121"
+    },
+    "284": {
+      "id": 284,
+      "name": "Grotte Retour",
+      "regionKey": "grotteretour",
+      "detail": "",
+      "code": "D17R0122"
+    },
+    "285": {
+      "id": 285,
+      "name": "Paradis Fleuri",
+      "regionKey": "paradisfleuri",
+      "detail": "",
+      "code": "D18"
+    },
+    "286": {
+      "id": 286,
+      "name": "Temple de Frimapic",
+      "regionKey": "templedefrimapic",
+      "detail": "",
+      "code": "D20R0101"
+    },
+    "287": {
+      "id": 287,
+      "name": "Temple de Frimapic",
+      "regionKey": "templedefrimapic",
+      "detail": "",
+      "code": "D20R0102"
+    },
+    "288": {
+      "id": 288,
+      "name": "Temple de Frimapic",
+      "regionKey": "templedefrimapic",
+      "detail": "",
+      "code": "D20R0103"
+    },
+    "289": {
+      "id": 289,
+      "name": "Temple de Frimapic",
+      "regionKey": "templedefrimapic",
+      "detail": "",
+      "code": "D20R0104"
+    },
+    "290": {
+      "id": 290,
+      "name": "Temple de Frimapic",
+      "regionKey": "templedefrimapic",
+      "detail": "",
+      "code": "D20R0105"
+    },
+    "291": {
+      "id": 291,
+      "name": "Temple de Frimapic",
+      "regionKey": "templedefrimapic",
+      "detail": "",
+      "code": "D20R0106"
+    },
+    "292": {
+      "id": 292,
+      "name": "Grotte des Égarés",
+      "regionKey": "grottedesegares",
+      "detail": "",
+      "code": "D21R0101"
+    },
+    "293": {
+      "id": 293,
+      "name": "Grotte des Égarés",
+      "regionKey": "grottedesegares",
+      "detail": "",
+      "code": "D21R0102"
+    },
+    "294": {
+      "id": 294,
+      "name": "Tunnel Ruinemaniac",
+      "regionKey": "tunnelruinemaniac",
+      "detail": "",
+      "code": "D22R0101"
+    },
+    "295": {
+      "id": 295,
+      "name": "Tunnel Ruinemaniac",
+      "regionKey": "tunnelruinemaniac",
+      "detail": "",
+      "code": "D22R0102"
+    },
+    "296": {
+      "id": 296,
+      "name": "Tunnel Ruinemaniac",
+      "regionKey": "tunnelruinemaniac",
+      "detail": "",
+      "code": "D22R0103"
+    },
+    "297": {
+      "id": 297,
+      "name": "Jardin Trophée",
+      "regionKey": "jardintrophee",
+      "detail": "",
+      "code": "D23R0101"
+    },
+    "298": {
+      "id": 298,
+      "name": "Île de Fer",
+      "regionKey": "iledefer",
+      "detail": "",
+      "code": "D24"
+    },
+    "299": {
+      "id": 299,
+      "name": "Île de Fer",
+      "regionKey": "iledefer",
+      "detail": "",
+      "code": "D24R0101"
+    },
+    "300": {
+      "id": 300,
+      "name": "Île de Fer",
+      "regionKey": "iledefer",
+      "detail": "",
+      "code": "D24R0102"
+    },
+    "301": {
+      "id": 301,
+      "name": "Île de Fer",
+      "regionKey": "iledefer",
+      "detail": "",
+      "code": "D24R0103"
+    },
+    "302": {
+      "id": 302,
+      "name": "Île de Fer",
+      "regionKey": "iledefer",
+      "detail": "",
+      "code": "D24R0104"
+    },
+    "303": {
+      "id": 303,
+      "name": "Île de Fer",
+      "regionKey": "iledefer",
+      "detail": "",
+      "code": "D24R0105"
+    },
+    "304": {
+      "id": 304,
+      "name": "Île de Fer",
+      "regionKey": "iledefer",
+      "detail": "",
+      "code": "D24R0106"
+    },
+    "305": {
+      "id": 305,
+      "name": "Île de Fer",
+      "regionKey": "iledefer",
+      "detail": "",
+      "code": "D24R0201"
+    },
+    "306": {
+      "id": 306,
+      "name": "Vieux Château",
+      "regionKey": "vieuxchateau",
+      "detail": "",
+      "code": "D25R0101"
+    },
+    "307": {
+      "id": 307,
+      "name": "Vieux Château",
+      "regionKey": "vieuxchateau",
+      "detail": "",
+      "code": "D25R0102"
+    },
+    "308": {
+      "id": 308,
+      "name": "Vieux Château",
+      "regionKey": "vieuxchateau",
+      "detail": "",
+      "code": "D25R0103"
+    },
+    "309": {
+      "id": 309,
+      "name": "Vieux Château",
+      "regionKey": "vieuxchateau",
+      "detail": "",
+      "code": "D25R0104"
+    },
+    "310": {
+      "id": 310,
+      "name": "Vieux Château",
+      "regionKey": "vieuxchateau",
+      "detail": "",
+      "code": "D25R0105"
+    },
+    "311": {
+      "id": 311,
+      "name": "Vieux Château",
+      "regionKey": "vieuxchateau",
+      "detail": "",
+      "code": "D25R0106"
+    },
+    "312": {
+      "id": 312,
+      "name": "Vieux Château",
+      "regionKey": "vieuxchateau",
+      "detail": "",
+      "code": "D25R0107"
+    },
+    "313": {
+      "id": 313,
+      "name": "Vieux Château",
+      "regionKey": "vieuxchateau",
+      "detail": "",
+      "code": "D25R0108"
+    },
+    "314": {
+      "id": 314,
+      "name": "Vieux Château",
+      "regionKey": "vieuxchateau",
+      "detail": "",
+      "code": "D25R0109"
+    },
+    "315": {
+      "id": 315,
+      "name": "QG Galaxie",
+      "regionKey": "qggalaxie",
+      "detail": "",
+      "code": "D26R0101"
+    },
+    "316": {
+      "id": 316,
+      "name": "QG Galaxie",
+      "regionKey": "qggalaxie",
+      "detail": "",
+      "code": "D26R0102"
+    },
+    "317": {
+      "id": 317,
+      "name": "QG Galaxie",
+      "regionKey": "qggalaxie",
+      "detail": "",
+      "code": "D26R0103"
+    },
+    "318": {
+      "id": 318,
+      "name": "QG Galaxie",
+      "regionKey": "qggalaxie",
+      "detail": "",
+      "code": "D26R0104"
+    },
+    "319": {
+      "id": 319,
+      "name": "QG Galaxie",
+      "regionKey": "qggalaxie",
+      "detail": "",
+      "code": "D26R0105"
+    },
+    "320": {
+      "id": 320,
+      "name": "QG Galaxie",
+      "regionKey": "qggalaxie",
+      "detail": "",
+      "code": "D26R0106"
+    },
+    "321": {
+      "id": 321,
+      "name": "QG Galaxie",
+      "regionKey": "qggalaxie",
+      "detail": "",
+      "code": "D26R0107"
+    },
+    "322": {
+      "id": 322,
+      "name": "QG Galaxie",
+      "regionKey": "qggalaxie",
+      "detail": "",
+      "code": "D26R0108"
+    },
+    "323": {
+      "id": 323,
+      "name": "Lac Vérité",
+      "regionKey": "lacverite",
+      "detail": "",
+      "code": "D27R0101"
+    },
+    "324": {
+      "id": 324,
+      "name": "Lac Vérité",
+      "regionKey": "lacverite",
+      "detail": "",
+      "code": "D27R0102"
+    },
+    "325": {
+      "id": 325,
+      "name": "Lac Vérité",
+      "regionKey": "lacverite",
+      "detail": "",
+      "code": "D27R0103"
+    },
+    "326": {
+      "id": 326,
+      "name": "Lac Courage",
+      "regionKey": "laccourage",
+      "detail": "",
+      "code": "D28R0101"
+    },
+    "327": {
+      "id": 327,
+      "name": "Lac Courage",
+      "regionKey": "laccourage",
+      "detail": "",
+      "code": "D28R0102"
+    },
+    "328": {
+      "id": 328,
+      "name": "Lac Courage",
+      "regionKey": "laccourage",
+      "detail": "",
+      "code": "D28R0103"
+    },
+    "329": {
+      "id": 329,
+      "name": "Lac Savoir",
+      "regionKey": "lacsavoir",
+      "detail": "",
+      "code": "D29R0101"
+    },
+    "330": {
+      "id": 330,
+      "name": "Lac Savoir",
+      "regionKey": "lacsavoir",
+      "detail": "",
+      "code": "D29R0102"
+    },
+    "331": {
+      "id": 331,
+      "name": "Lac Savoir",
+      "regionKey": "lacsavoir",
+      "detail": "",
+      "code": "D29R0103"
+    },
+    "347": {
+      "id": 347,
+      "name": "Rive du Lac Courage",
+      "regionKey": "rivedulaccourage",
+      "detail": "",
+      "code": "L02"
+    },
+    "348": {
+      "id": 348,
+      "name": "Rive du Lac Courage",
+      "regionKey": "rivedulaccourage",
+      "detail": "",
+      "code": "L02R0101"
+    },
+    "349": {
+      "id": 349,
+      "name": "Rive du Lac Courage",
+      "regionKey": "rivedulaccourage",
+      "detail": "",
+      "code": "L02R0201"
+    },
+    "350": {
+      "id": 350,
+      "name": "Rive du Lac Courage",
+      "regionKey": "rivedulaccourage",
+      "detail": "",
+      "code": "L02R0301"
+    },
+    "351": {
+      "id": 351,
+      "name": "Rive du Lac Savoir",
+      "regionKey": "rivedulacsavoir",
+      "detail": "",
+      "code": "L03"
+    },
+    "354": {
+      "id": 354,
+      "name": "Route 201",
+      "regionKey": "route201",
+      "detail": "",
+      "code": "R201"
+    },
+    "355": {
+      "id": 355,
+      "name": "Route 202",
+      "regionKey": "route202",
+      "detail": "",
+      "code": "R202"
+    },
+    "356": {
+      "id": 356,
+      "name": "Route 203",
+      "regionKey": "route203",
+      "detail": "",
+      "code": "R204A"
+    },
+    "357": {
+      "id": 357,
+      "name": "Route 204",
+      "regionKey": "route204",
+      "detail": "",
+      "code": ""
+    },
+    "358": {
+      "id": 358,
+      "name": "Route 204",
+      "regionKey": "route204",
+      "detail": "",
+      "code": "R204B"
+    },
+    "359": {
+      "id": 359,
+      "name": "Route 205",
+      "regionKey": "route205",
+      "detail": "",
+      "code": "R205A"
+    },
+    "360": {
+      "id": 360,
+      "name": "Route 205",
+      "regionKey": "route205",
+      "detail": "Bâtiment",
+      "code": "R205AR0101"
+    },
+    "361": {
+      "id": 361,
+      "name": "Route 205",
+      "regionKey": "route205",
+      "detail": "",
+      "code": "R205B"
+    },
+    "362": {
+      "id": 362,
+      "name": "Route 206",
+      "regionKey": "route206",
+      "detail": "",
+      "code": "R206"
+    },
+    "363": {
+      "id": 363,
+      "name": "Route 206",
+      "regionKey": "route206",
+      "detail": "",
+      "code": "R206R0101"
+    },
+    "364": {
+      "id": 364,
+      "name": "Route 207",
+      "regionKey": "route207",
+      "detail": "",
+      "code": "R207"
+    },
+    "365": {
+      "id": 365,
+      "name": "Route 208",
+      "regionKey": "route208",
+      "detail": "",
+      "code": "R208"
+    },
+    "366": {
+      "id": 366,
+      "name": "Route 208",
+      "regionKey": "route208",
+      "detail": "",
+      "code": "R208R0101"
+    },
+    "367": {
+      "id": 367,
+      "name": "Route 209",
+      "regionKey": "route209",
+      "detail": "",
+      "code": "R209"
+    },
+    "368": {
+      "id": 368,
+      "name": "Route 209",
+      "regionKey": "route209",
+      "detail": "",
+      "code": "R209R0101"
+    },
+    "369": {
+      "id": 369,
+      "name": "Route 209",
+      "regionKey": "route209",
+      "detail": "",
+      "code": "R209R0102"
+    },
+    "370": {
+      "id": 370,
+      "name": "Route 209",
+      "regionKey": "route209",
+      "detail": "",
+      "code": "R209R0103"
+    },
+    "371": {
+      "id": 371,
+      "name": "Route 209",
+      "regionKey": "route209",
+      "detail": "",
+      "code": "R209R0104"
+    },
+    "372": {
+      "id": 372,
+      "name": "Route 209",
+      "regionKey": "route209",
+      "detail": "",
+      "code": "R209R0105"
+    },
+    "373": {
+      "id": 373,
+      "name": "Route 210",
+      "regionKey": "route210",
+      "detail": "",
+      "code": "R210A"
+    },
+    "374": {
+      "id": 374,
+      "name": "Route 210",
+      "regionKey": "route210",
+      "detail": "",
+      "code": "R210AR0101"
+    },
+    "375": {
+      "id": 375,
+      "name": "Route 210",
+      "regionKey": "route210",
+      "detail": "",
+      "code": "R210B"
+    },
+    "376": {
+      "id": 376,
+      "name": "Route 210",
+      "regionKey": "route210",
+      "detail": "",
+      "code": "R210BR0101"
+    },
+    "377": {
+      "id": 377,
+      "name": "Route 211",
+      "regionKey": "route211",
+      "detail": "",
+      "code": "R211A"
+    },
+    "378": {
+      "id": 378,
+      "name": "Route 211",
+      "regionKey": "route211",
+      "detail": "",
+      "code": "R211B"
+    },
+    "379": {
+      "id": 379,
+      "name": "Route 212",
+      "regionKey": "route212",
+      "detail": "",
+      "code": "R212A"
+    },
+    "380": {
+      "id": 380,
+      "name": "Manoir Pokémon",
+      "regionKey": "manoirpokemon",
+      "detail": "",
+      "code": "R212AR0101"
+    },
+    "381": {
+      "id": 381,
+      "name": "Manoir Pokémon",
+      "regionKey": "manoirpokemon",
+      "detail": "",
+      "code": "R212AR0102"
+    },
+    "382": {
+      "id": 382,
+      "name": "Manoir Pokémon",
+      "regionKey": "manoirpokemon",
+      "detail": "",
+      "code": "R212AR0103"
+    },
+    "383": {
+      "id": 383,
+      "name": "Route 212",
+      "regionKey": "route212",
+      "detail": "",
+      "code": "R212B"
+    },
+    "384": {
+      "id": 384,
+      "name": "Route 212",
+      "regionKey": "route212",
+      "detail": "",
+      "code": "R212BR0101"
+    },
+    "385": {
+      "id": 385,
+      "name": "Route 213",
+      "regionKey": "route213",
+      "detail": "",
+      "code": "R213"
+    },
+    "386": {
+      "id": 386,
+      "name": "Route 213",
+      "regionKey": "route213",
+      "detail": "",
+      "code": "R213R0101"
+    },
+    "387": {
+      "id": 387,
+      "name": "Route 213",
+      "regionKey": "route213",
+      "detail": "",
+      "code": "R213R0201"
+    },
+    "388": {
+      "id": 388,
+      "name": "Route 213",
+      "regionKey": "route213",
+      "detail": "",
+      "code": "R213R0301"
+    },
+    "389": {
+      "id": 389,
+      "name": "Route 213",
+      "regionKey": "route213",
+      "detail": "",
+      "code": "R213R0401"
+    },
+    "390": {
+      "id": 390,
+      "name": "Route 213",
+      "regionKey": "route213",
+      "detail": "",
+      "code": "R213R0501"
+    },
+    "391": {
+      "id": 391,
+      "name": "Route 213",
+      "regionKey": "route213",
+      "detail": "",
+      "code": "R213R0601"
+    },
+    "392": {
+      "id": 392,
+      "name": "Route 214",
+      "regionKey": "route214",
+      "detail": "",
+      "code": "R214"
+    },
+    "393": {
+      "id": 393,
+      "name": "Route 214",
+      "regionKey": "route214",
+      "detail": "",
+      "code": "R214R0101"
+    },
+    "394": {
+      "id": 394,
+      "name": "Route 215",
+      "regionKey": "route215",
+      "detail": "",
+      "code": "R215"
+    },
+    "395": {
+      "id": 395,
+      "name": "Route 216",
+      "regionKey": "route216",
+      "detail": "",
+      "code": "R216"
+    },
+    "396": {
+      "id": 396,
+      "name": "Route 216",
+      "regionKey": "route216",
+      "detail": "",
+      "code": "R216R0101"
+    },
+    "397": {
+      "id": 397,
+      "name": "Route 217",
+      "regionKey": "route217",
+      "detail": "",
+      "code": "R217"
+    },
+    "398": {
+      "id": 398,
+      "name": "Route 217",
+      "regionKey": "route217",
+      "detail": "",
+      "code": "R217R0101"
+    },
+    "399": {
+      "id": 399,
+      "name": "Route 217",
+      "regionKey": "route217",
+      "detail": "",
+      "code": "R217R0201"
+    },
+    "400": {
+      "id": 400,
+      "name": "Route 218",
+      "regionKey": "route218",
+      "detail": "",
+      "code": "R218"
+    },
+    "401": {
+      "id": 401,
+      "name": "Route 218",
+      "regionKey": "route218",
+      "detail": "",
+      "code": "R218R0101"
+    },
+    "402": {
+      "id": 402,
+      "name": "Route 218",
+      "regionKey": "route218",
+      "detail": "",
+      "code": "R218R0201"
+    },
+    "403": {
+      "id": 403,
+      "name": "Route 219",
+      "regionKey": "route219",
+      "detail": "",
+      "code": "R219"
+    },
+    "404": {
+      "id": 404,
+      "name": "Route 221",
+      "regionKey": "route221",
+      "detail": "",
+      "code": "R221"
+    },
+    "405": {
+      "id": 405,
+      "name": "Route 221",
+      "regionKey": "route221",
+      "detail": "",
+      "code": "R221R0101"
+    },
+    "406": {
+      "id": 406,
+      "name": "Route 221",
+      "regionKey": "route221",
+      "detail": "",
+      "code": "R221R0201"
+    },
+    "407": {
+      "id": 407,
+      "name": "Route 222",
+      "regionKey": "route222",
+      "detail": "",
+      "code": "R222"
+    },
+    "408": {
+      "id": 408,
+      "name": "Route 222",
+      "regionKey": "route222",
+      "detail": "",
+      "code": "R222R0101"
+    },
+    "409": {
+      "id": 409,
+      "name": "Route 222",
+      "regionKey": "route222",
+      "detail": "",
+      "code": "R222R0201"
+    },
+    "410": {
+      "id": 410,
+      "name": "Route 222",
+      "regionKey": "route222",
+      "detail": "",
+      "code": "R222R0301"
+    },
+    "411": {
+      "id": 411,
+      "name": "Route 224",
+      "regionKey": "route224",
+      "detail": "",
+      "code": "R224"
+    },
+    "412": {
+      "id": 412,
+      "name": "Route 225",
+      "regionKey": "route225",
+      "detail": "",
+      "code": "R225"
+    },
+    "413": {
+      "id": 413,
+      "name": "Route 225",
+      "regionKey": "route225",
+      "detail": "",
+      "code": "R225R0101"
+    },
+    "414": {
+      "id": 414,
+      "name": "Route 227",
+      "regionKey": "route227",
+      "detail": "",
+      "code": "R227"
+    },
+    "415": {
+      "id": 415,
+      "name": "Route 227",
+      "regionKey": "route227",
+      "detail": "",
+      "code": "R227R0101"
+    },
+    "416": {
+      "id": 416,
+      "name": "Route 228",
+      "regionKey": "route228",
+      "detail": "",
+      "code": "R228"
+    },
+    "417": {
+      "id": 417,
+      "name": "Route 228",
+      "regionKey": "route228",
+      "detail": "",
+      "code": "R228R0101"
+    },
+    "418": {
+      "id": 418,
+      "name": "Route 228",
+      "regionKey": "route228",
+      "detail": "",
+      "code": "R228R0201"
+    },
+    "419": {
+      "id": 419,
+      "name": "Route 228",
+      "regionKey": "route228",
+      "detail": "",
+      "code": "R228R0301"
+    },
+    "420": {
+      "id": 420,
+      "name": "Route 229",
+      "regionKey": "route229",
+      "detail": "",
+      "code": "R229"
+    },
+    "422": {
+      "id": 422,
+      "name": "Bonaugure",
+      "regionKey": "bonaugure",
+      "detail": "",
+      "code": "T01"
+    },
+    "423": {
+      "id": 423,
+      "name": "Bonaugure",
+      "regionKey": "bonaugure",
+      "detail": "Bâtiment",
+      "code": "T01R0101"
+    },
+    "424": {
+      "id": 424,
+      "name": "Bonaugure",
+      "regionKey": "bonaugure",
+      "detail": "Bâtiment",
+      "code": "T01R0102"
+    },
+    "425": {
+      "id": 425,
+      "name": "Bonaugure",
+      "regionKey": "bonaugure",
+      "detail": "Bâtiment",
+      "code": "T01R0201"
+    },
+    "426": {
+      "id": 426,
+      "name": "Bonaugure",
+      "regionKey": "bonaugure",
+      "detail": "Bâtiment",
+      "code": "T01R0202"
+    },
+    "427": {
+      "id": 427,
+      "name": "Bonaugure",
+      "regionKey": "bonaugure",
+      "detail": "Bâtiment",
+      "code": "T01R0301"
+    },
+    "428": {
+      "id": 428,
+      "name": "Bonaugure",
+      "regionKey": "bonaugure",
+      "detail": "Bâtiment",
+      "code": "T01R0401"
+    },
+    "429": {
+      "id": 429,
+      "name": "Littorella",
+      "regionKey": "littorella",
+      "detail": "",
+      "code": "T02"
+    },
+    "430": {
+      "id": 430,
+      "name": "Littorella",
+      "regionKey": "littorella",
+      "detail": "Boutique",
+      "code": "T02FS0101"
+    },
+    "431": {
+      "id": 431,
+      "name": "Littorella",
+      "regionKey": "littorella",
+      "detail": "Centre Pokémon",
+      "code": "T02PC0101"
+    },
+    "432": {
+      "id": 432,
+      "name": "Littorella",
+      "regionKey": "littorella",
+      "detail": "Centre Pokémon",
+      "code": "T02PC0102"
+    },
+    "433": {
+      "id": 433,
+      "name": "Littorella",
+      "regionKey": "littorella",
+      "detail": "Centre Pokémon",
+      "code": "T02PC0103"
+    },
+    "434": {
+      "id": 434,
+      "name": "Littorella",
+      "regionKey": "littorella",
+      "detail": "",
+      "code": "T02R0101"
+    },
+    "435": {
+      "id": 435,
+      "name": "Littorella",
+      "regionKey": "littorella",
+      "detail": "Bâtiment",
+      "code": "T02R0201"
+    },
+    "436": {
+      "id": 436,
+      "name": "Littorella",
+      "regionKey": "littorella",
+      "detail": "Bâtiment",
+      "code": "T02R0202"
+    },
+    "437": {
+      "id": 437,
+      "name": "Littorella",
+      "regionKey": "littorella",
+      "detail": "Bâtiment",
+      "code": "T02R0301"
+    },
+    "438": {
+      "id": 438,
+      "name": "Floraville",
+      "regionKey": "floraville",
+      "detail": "",
+      "code": "T03"
+    },
+    "439": {
+      "id": 439,
+      "name": "Floraville",
+      "regionKey": "floraville",
+      "detail": "Boutique",
+      "code": "T03FS0101"
+    },
+    "440": {
+      "id": 440,
+      "name": "Floraville",
+      "regionKey": "floraville",
+      "detail": "Centre Pokémon",
+      "code": "T03PC0101"
+    },
+    "441": {
+      "id": 441,
+      "name": "Floraville",
+      "regionKey": "floraville",
+      "detail": "Centre Pokémon",
+      "code": "T03PC0102"
+    },
+    "442": {
+      "id": 442,
+      "name": "Floraville",
+      "regionKey": "floraville",
+      "detail": "Centre Pokémon",
+      "code": "T03PC0103"
+    },
+    "443": {
+      "id": 443,
+      "name": "Floraville",
+      "regionKey": "floraville",
+      "detail": "",
+      "code": "T03R0101"
+    },
+    "444": {
+      "id": 444,
+      "name": "Floraville",
+      "regionKey": "floraville",
+      "detail": "Bâtiment",
+      "code": "T03R0201"
+    },
+    "445": {
+      "id": 445,
+      "name": "Floraville",
+      "regionKey": "floraville",
+      "detail": "Bâtiment",
+      "code": "T03R0301"
+    },
+    "446": {
+      "id": 446,
+      "name": "Bonville",
+      "regionKey": "bonville",
+      "detail": "",
+      "code": "T04"
+    },
+    "447": {
+      "id": 447,
+      "name": "Bonville",
+      "regionKey": "bonville",
+      "detail": "Boutique",
+      "code": "T04FS0101"
+    },
+    "448": {
+      "id": 448,
+      "name": "Bonville",
+      "regionKey": "bonville",
+      "detail": "Centre Pokémon",
+      "code": "T04PC0101"
+    },
+    "449": {
+      "id": 449,
+      "name": "Bonville",
+      "regionKey": "bonville",
+      "detail": "Centre Pokémon",
+      "code": "T04PC0102"
+    },
+    "450": {
+      "id": 450,
+      "name": "Bonville",
+      "regionKey": "bonville",
+      "detail": "Centre Pokémon",
+      "code": "T04PC0103"
+    },
+    "451": {
+      "id": 451,
+      "name": "Bonville",
+      "regionKey": "bonville",
+      "detail": "",
+      "code": "T04R0101"
+    },
+    "452": {
+      "id": 452,
+      "name": "Bonville",
+      "regionKey": "bonville",
+      "detail": "Bâtiment",
+      "code": "T04R0201"
+    },
+    "453": {
+      "id": 453,
+      "name": "Bonville",
+      "regionKey": "bonville",
+      "detail": "Bâtiment",
+      "code": "T04R0301"
+    },
+    "454": {
+      "id": 454,
+      "name": "Bonville",
+      "regionKey": "bonville",
+      "detail": "Bâtiment",
+      "code": "T04R0401"
+    },
+    "455": {
+      "id": 455,
+      "name": "Bonville",
+      "regionKey": "bonville",
+      "detail": "Bâtiment",
+      "code": "T04R0501"
+    },
+    "456": {
+      "id": 456,
+      "name": "Célestia",
+      "regionKey": "celestia",
+      "detail": "",
+      "code": "T05"
+    },
+    "457": {
+      "id": 457,
+      "name": "Célestia",
+      "regionKey": "celestia",
+      "detail": "Centre Pokémon",
+      "code": "T05PC0101"
+    },
+    "458": {
+      "id": 458,
+      "name": "Célestia",
+      "regionKey": "celestia",
+      "detail": "Centre Pokémon",
+      "code": "T05PC0102"
+    },
+    "459": {
+      "id": 459,
+      "name": "Célestia",
+      "regionKey": "celestia",
+      "detail": "Centre Pokémon",
+      "code": "T05PC0103"
+    },
+    "460": {
+      "id": 460,
+      "name": "Célestia",
+      "regionKey": "celestia",
+      "detail": "",
+      "code": "T05R0101"
+    },
+    "461": {
+      "id": 461,
+      "name": "Célestia",
+      "regionKey": "celestia",
+      "detail": "Bâtiment",
+      "code": "T05R0201"
+    },
+    "462": {
+      "id": 462,
+      "name": "Célestia",
+      "regionKey": "celestia",
+      "detail": "Bâtiment",
+      "code": "T05R0301"
+    },
+    "463": {
+      "id": 463,
+      "name": "Célestia",
+      "regionKey": "celestia",
+      "detail": "Bâtiment",
+      "code": "T05R0401"
+    },
+    "485": {
+      "id": 485,
+      "name": "Route 220",
+      "regionKey": "route220",
+      "detail": "",
+      "code": "W220"
+    },
+    "486": {
+      "id": 486,
+      "name": "Route 223",
+      "regionKey": "route223",
+      "detail": "",
+      "code": "W223"
+    },
+    "487": {
+      "id": 487,
+      "name": "Route 226",
+      "regionKey": "route226",
+      "detail": "",
+      "code": "W226"
+    },
+    "488": {
+      "id": 488,
+      "name": "Route 226",
+      "regionKey": "route226",
+      "detail": "",
+      "code": "W226R0101"
+    },
+    "489": {
+      "id": 489,
+      "name": "Route 230",
+      "regionKey": "route230",
+      "detail": "",
+      "code": "W230"
+    },
+    "495": {
+      "id": 495,
+      "name": "Parc Rosa Rugosa",
+      "regionKey": "parcrosarugosa",
+      "detail": "",
+      "code": "D10R0201"
+    },
+    "496": {
+      "id": 496,
+      "name": "Parc Rosa Rugosa",
+      "regionKey": "parcrosarugosa",
+      "detail": "",
+      "code": "D10R0202"
+    },
+    "497": {
+      "id": 497,
+      "name": "Parc Rosa Rugosa",
+      "regionKey": "parcrosarugosa",
+      "detail": "",
+      "code": "D10R0301"
+    },
+    "498": {
+      "id": 498,
+      "name": "Parc Rosa Rugosa",
+      "regionKey": "parcrosarugosa",
+      "detail": "",
+      "code": "D10R0302"
+    },
+    "499": {
+      "id": 499,
+      "name": "Parc Rosa Rugosa",
+      "regionKey": "parcrosarugosa",
+      "detail": "",
+      "code": "D10R0303"
+    },
+    "500": {
+      "id": 500,
+      "name": "Parc Rosa Rugosa",
+      "regionKey": "parcrosarugosa",
+      "detail": "",
+      "code": "D10R0401"
+    },
+    "501": {
+      "id": 501,
+      "name": "Parc Rosa Rugosa",
+      "regionKey": "parcrosarugosa",
+      "detail": "",
+      "code": "D10R0402"
+    },
+    "502": {
+      "id": 502,
+      "name": "Parc Rosa Rugosa",
+      "regionKey": "parcrosarugosa",
+      "detail": "",
+      "code": "D10R0403"
+    },
+    "503": {
+      "id": 503,
+      "name": "Parc Rosa Rugosa",
+      "regionKey": "parcrosarugosa",
+      "detail": "",
+      "code": "D10R0501"
+    },
+    "504": {
+      "id": 504,
+      "name": "Parc Rosa Rugosa",
+      "regionKey": "parcrosarugosa",
+      "detail": "",
+      "code": "D10R0502"
+    },
+    "505": {
+      "id": 505,
+      "name": "Parc Rosa Rugosa",
+      "regionKey": "parcrosarugosa",
+      "detail": "",
+      "code": "D10R0601"
+    },
+    "506": {
+      "id": 506,
+      "name": "Parc Rosa Rugosa",
+      "regionKey": "parcrosarugosa",
+      "detail": "",
+      "code": "D10R0701"
+    },
+    "507": {
+      "id": 507,
+      "name": "Parc Rosa Rugosa",
+      "regionKey": "parcrosarugosa",
+      "detail": "",
+      "code": "D10R0801"
+    },
+    "508": {
+      "id": 508,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGA01"
+    },
+    "509": {
+      "id": 509,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGA02"
+    },
+    "510": {
+      "id": 510,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGA03"
+    },
+    "511": {
+      "id": 511,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGA04"
+    },
+    "512": {
+      "id": 512,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGA05"
+    },
+    "513": {
+      "id": 513,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGA06"
+    },
+    "514": {
+      "id": 514,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGA07"
+    },
+    "515": {
+      "id": 515,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGA08"
+    },
+    "516": {
+      "id": 516,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGA09"
+    },
+    "517": {
+      "id": 517,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGA10"
+    },
+    "518": {
+      "id": 518,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGB01"
+    },
+    "519": {
+      "id": 519,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGB02"
+    },
+    "520": {
+      "id": 520,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGB03"
+    },
+    "521": {
+      "id": 521,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGB04"
+    },
+    "522": {
+      "id": 522,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGB05"
+    },
+    "523": {
+      "id": 523,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGB06"
+    },
+    "524": {
+      "id": 524,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGB07"
+    },
+    "525": {
+      "id": 525,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGC01"
+    },
+    "526": {
+      "id": 526,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGD01"
+    },
+    "527": {
+      "id": 527,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGD02"
+    },
+    "528": {
+      "id": 528,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGD03"
+    },
+    "529": {
+      "id": 529,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGD04"
+    },
+    "530": {
+      "id": 530,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGD05"
+    },
+    "531": {
+      "id": 531,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGE01"
+    },
+    "532": {
+      "id": 532,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGE02"
+    },
+    "533": {
+      "id": 533,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGE03"
+    },
+    "534": {
+      "id": 534,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGE04"
+    },
+    "535": {
+      "id": 535,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGE05"
+    },
+    "536": {
+      "id": 536,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGF01"
+    },
+    "537": {
+      "id": 537,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGF02"
+    },
+    "538": {
+      "id": 538,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGF03"
+    },
+    "539": {
+      "id": 539,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGF04"
+    },
+    "540": {
+      "id": 540,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGF05"
+    },
+    "541": {
+      "id": 541,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGF06"
+    },
+    "542": {
+      "id": 542,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGF07"
+    },
+    "543": {
+      "id": 543,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE01"
+    },
+    "544": {
+      "id": 544,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE02"
+    },
+    "545": {
+      "id": 545,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE03"
+    },
+    "546": {
+      "id": 546,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE04"
+    },
+    "547": {
+      "id": 547,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE05"
+    },
+    "548": {
+      "id": 548,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE06"
+    },
+    "549": {
+      "id": 549,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE07"
+    },
+    "550": {
+      "id": 550,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE08"
+    },
+    "551": {
+      "id": 551,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE09"
+    },
+    "552": {
+      "id": 552,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE10"
+    },
+    "553": {
+      "id": 553,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE11"
+    },
+    "554": {
+      "id": 554,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE12"
+    },
+    "555": {
+      "id": 555,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE13"
+    },
+    "556": {
+      "id": 556,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE14"
+    },
+    "557": {
+      "id": 557,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE15"
+    },
+    "558": {
+      "id": 558,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE16"
+    },
+    "559": {
+      "id": 559,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE17"
+    },
+    "560": {
+      "id": 560,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE18"
+    },
+    "561": {
+      "id": 561,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE19"
+    },
+    "562": {
+      "id": 562,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE20"
+    },
+    "563": {
+      "id": 563,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE21"
+    },
+    "564": {
+      "id": 564,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE22"
+    },
+    "565": {
+      "id": 565,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE23"
+    },
+    "566": {
+      "id": 566,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE24"
+    },
+    "567": {
+      "id": 567,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE25"
+    },
+    "568": {
+      "id": 568,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE26"
+    },
+    "569": {
+      "id": 569,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE27"
+    },
+    "570": {
+      "id": 570,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE28"
+    },
+    "571": {
+      "id": 571,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE29"
+    },
+    "572": {
+      "id": 572,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE30"
+    },
+    "573": {
+      "id": 573,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE31"
+    },
+    "574": {
+      "id": 574,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE32"
+    },
+    "575": {
+      "id": 575,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE33"
+    },
+    "576": {
+      "id": 576,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE34"
+    },
+    "577": {
+      "id": 577,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE35"
+    },
+    "578": {
+      "id": 578,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE36"
+    },
+    "579": {
+      "id": 579,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE37"
+    },
+    "580": {
+      "id": 580,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE38"
+    },
+    "581": {
+      "id": 581,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE39"
+    },
+    "582": {
+      "id": 582,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE40"
+    },
+    "583": {
+      "id": 583,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE41"
+    },
+    "584": {
+      "id": 584,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE42"
+    },
+    "585": {
+      "id": 585,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE43"
+    },
+    "586": {
+      "id": 586,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE44"
+    },
+    "587": {
+      "id": 587,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE45"
+    },
+    "588": {
+      "id": 588,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE46"
+    },
+    "589": {
+      "id": 589,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE47"
+    },
+    "590": {
+      "id": 590,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE48"
+    },
+    "591": {
+      "id": 591,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE49"
+    },
+    "592": {
+      "id": 592,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE50"
+    },
+    "593": {
+      "id": 593,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE51"
+    },
+    "594": {
+      "id": 594,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE52"
+    },
+    "595": {
+      "id": 595,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE53"
+    },
+    "596": {
+      "id": 596,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE54"
+    },
+    "597": {
+      "id": 597,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE55"
+    },
+    "598": {
+      "id": 598,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE56"
+    },
+    "599": {
+      "id": 599,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE57"
+    },
+    "600": {
+      "id": 600,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE58"
+    },
+    "601": {
+      "id": 601,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE59"
+    },
+    "602": {
+      "id": 602,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE60"
+    },
+    "603": {
+      "id": 603,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE61"
+    },
+    "604": {
+      "id": 604,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE62"
+    },
+    "605": {
+      "id": 605,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE63"
+    },
+    "606": {
+      "id": 606,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE64"
+    },
+    "607": {
+      "id": 607,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE65"
+    },
+    "608": {
+      "id": 608,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE66"
+    },
+    "609": {
+      "id": 609,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE67"
+    },
+    "610": {
+      "id": 610,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACE68"
+    },
+    "611": {
+      "id": 611,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACEL01"
+    },
+    "612": {
+      "id": 612,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACEL02"
+    },
+    "613": {
+      "id": 613,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACEL03"
+    },
+    "614": {
+      "id": 614,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACEL04"
+    },
+    "615": {
+      "id": 615,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACEL05"
+    },
+    "616": {
+      "id": 616,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACEL06"
+    },
+    "617": {
+      "id": 617,
+      "name": "Grands Souterrains",
+      "regionKey": "grandssouterrains",
+      "detail": "",
+      "code": "UGSPACEL07"
+    },
+    "618": {
+      "id": 618,
+      "name": "Mont Couronné",
+      "regionKey": "montcouronne",
+      "detail": "",
+      "code": "D05R0117"
+    }
+  }
+}

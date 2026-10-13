@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0e1015">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'">
+  <title>Carnet Sinnoh</title>
+  <link rel="stylesheet" href="css/pokedex.css">
+  <script defer src="js/html.js"></script>
+  <script defer src="data/battle-dex.js"></script>
+  <script defer src="data/battle-guide-data.js"></script>
+  <script defer src="js/battle-guide.js"></script>
+  <script defer src="js/battle.js"></script>
+  <script defer src="js/default-config.js"></script>
+  <script defer src="js/sprite-catalog.js"></script>
+  <script defer src="js/ui.js"></script>
+  <script defer src="data/acquisition-catalog.js"></script>
+  <script defer src="js/acquisition.js"></script>
+  <script defer src="js/roadmap.js"></script>
+  <script defer src="data/zone-catalog.js"></script>
+  <script defer src="data/context-catalog.js"></script>
+  <script defer src="js/context.js"></script>
+  <script defer src="js/nearby-map.js"></script>
+  <script defer src="js/app.js"></script>
+  <link rel="stylesheet" href="css/context.css">
+  <link rel="stylesheet" href="css/nearby-map.css">
+  <link rel="stylesheet" href="css/scroll-fix.css">
+</head>
+<body>
+  <header class="app-header" hidden>
+    <div class="device-lens" aria-hidden="true"><i></i><b></b><b></b><b></b></div>
+    <div class="brand"><span class="eyebrow" id="gameLabel">Diamant Étincelant</span><h1 id="appTitle">Carnet Sinnoh</h1></div>
+    <button id="progressButton" class="badge" aria-label="Modifier mes badges et ma progression">0 / 8</button>
+  </header>
+  <nav aria-label="Sections">
+    <button data-tab="now" class="active">Quêtes</button><button data-tab="map">Carte</button><button data-tab="team">Pokédex</button><button data-tab="battle">Combat</button><button data-tab="journal">Carnet</button>
+  </nav>
+  <main id="content"></main>
+  <div id="toast" role="status"></div>
+  <dialog id="progress"><form method="dialog"><h2>Où en es-tu ?</h2><label>Badges obtenus<select id="badges"></select></label><label>Ville / route actuelle<input id="location" maxlength="100" placeholder="Ex. Féli-Cité"></label><fieldset id="flags"></fieldset><p class="muted">Ton carnet suit la progression que tu renseignes.</p><div class="actions"><button value="cancel">Annuler</button><button id="saveProgress" value="default" class="primary">Enregistrer</button></div></form></dialog>
+  <dialog id="battleHelp" class="battle-guide-dialog" aria-label="Comprendre les statistiques du Pokémon"></dialog>
+  <dialog id="editor"><form id="editorForm"><div id="editorBody"></div><div class="actions"><button type="button" id="cancelEdit">Annuler</button><button type="submit" class="primary">Enregistrer</button></div></form></dialog>
+</body>
+</html>
