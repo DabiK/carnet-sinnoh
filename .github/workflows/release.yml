@@ -75,8 +75,10 @@ jobs:
           rm build/dev.keystore
       - name: Check the signing certificate
         run: |
-          actual="$("$ANDROID_HOME/build-tools/$ANDROID_BUILD_TOOLS/apksigner" verify --print-certs build/carnet-sinnoh.apk | sed -n 's/^Signer #1 certificate SHA-256 digest: //p')"
-          [ "$actual" = "$SIGNING_CERTIFICATE" ] || { echo "Unexpected signing certificate: $actual" >&2; exit 1; }
+          report="$("$ANDROID_HOME/build-tools/$ANDROID_BUILD_TOOLS/apksigner" verify --print-certs build/carnet-sinnoh.apk)"
+          # One line per signature scheme, worded differently across build-tools versions.
+          digests="$(printf '%s\n' "$report" | sed -n 's/.*certificate SHA-256 digest: //p' | sort -u)"
+          [ "$digests" = "$SIGNING_CERTIFICATE" ] || { printf 'Unexpected signing certificate:\n%s\n' "$report" >&2; exit 1; }
       - name: Publish the release
         env:
           GH_TOKEN: ${{ github.token }}
