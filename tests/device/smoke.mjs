@@ -18,16 +18,24 @@ try {
     'document.styleSheets.length === 4 && [...document.styleSheets].every((s) => s.cssRules.length > 0)',
   );
   await carnet.check("document.fonts.load('16px Nunito').then((fonts) => fonts.length > 0)");
-  // Images: one sprite per species, the curated sprites and both maps.
-  await carnet.check(`(async () => {
+  // Images: one sprite per species, the egg and both maps, a few at a time.
+  const missing = await carnet.evaluate(`(async () => {
     const files = [...Array.from({ length: 493 }, (_, i) => 'sprites/' + (i + 1) + '.png'), 'sprites/egg.png', 'sinnoh.png', 'sinnoh-2d.png'];
-    const loaded = await Promise.all(files.map((file) => {
+    const load = (file) => new Promise((done) => {
       const image = new Image();
+      image.onload = () => done(image.naturalWidth > 0 ? null : file + ' (empty)');
+      image.onerror = () => done(file);
       image.src = file;
-      return image.decode().then(() => image.naturalWidth > 0, () => false);
-    }));
-    return loaded.every(Boolean);
+    });
+    const failed = [];
+    for (let start = 0; start < files.length; start += 20) {
+      failed.push(...(await Promise.all(files.slice(start, start + 20).map(load))).filter(Boolean));
+    }
+    return failed;
   })()`);
+  assert.deepEqual(missing, [], 'images that failed to load from the APK');
+  carnet.checks++;
+
   // The native bridge: with no emulator to read, it must report an error back to the page.
   const wasOff = await carnet.evaluate("battleSnapshot.status === 'off'");
   if (wasOff) {
