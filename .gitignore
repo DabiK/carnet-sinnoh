@@ -13,11 +13,6 @@ tools/bridge-probe/captures/
 # Downloaded copies of third-party pages and API responses.
 catalog/cache/
 
-# Images that are not redistributed with the sources (docs/INSTALLATION.md, step 2).
-assets/sprites/
-assets/sinnoh.png
-assets/sinnoh-2d.png
-
 __pycache__/
 *.pyc
 .DS_Store

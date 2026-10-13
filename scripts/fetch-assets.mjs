@@ -1,4 +1,5 @@
-// Downloads the images the app displays but the repository does not redistribute.
+// Restores the sprites and the legacy map artwork from their sources. These files are versioned:
+// this is only needed to repair or refresh them.
 // Usage: node scripts/fetch-assets.mjs [--force]
 import { existsSync } from 'node:fs';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
@@ -69,11 +70,5 @@ count(await fetchPng(REGION_ARTWORK, 'sinnoh.png', { width: 800, height: 566 }))
 
 console.log(`${downloaded} file(s) downloaded into ${ASSETS}`);
 if (!existsSync(join(ASSETS, 'sinnoh-2d.png'))) {
-  console.log(
-    [
-      '',
-      'One image is left to add by hand: assets/sinnoh-2d.png, the region map behind the pins.',
-      'Its host refuses automated downloads. See docs/INSTALLATION.md, "Images".',
-    ].join('\n'),
-  );
+  console.log('assets/sinnoh-2d.png is missing and its host refuses automated downloads: git restore it.');
 }

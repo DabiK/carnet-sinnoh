@@ -76,7 +76,7 @@ permet de la vérifier.
 ## Combat
 
 Appuyez sur **Connecter** pour démarrer le bridge
-([mise en place](INSTALLATION.md#6-facultatif--activer-le-bridge-mémoire)). Pendant un combat, la fiche du
+([mise en place](INSTALLATION.md#5-facultatif--activer-le-bridge-mémoire)). Pendant un combat, la fiche du
 Pokémon adverse tient sur un écran, sans défilement :
 
 - PV actuels et maximum, relus en continu ;

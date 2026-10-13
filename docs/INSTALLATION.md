@@ -5,11 +5,10 @@ téléchargement.
 
 - [Prérequis](#prérequis)
 - [1. Récupérer le projet](#1-récupérer-le-projet)
-- [2. Récupérer les images](#2-récupérer-les-images)
-- [3. Installer le SDK Android](#3-installer-le-sdk-android)
-- [4. Construire l'APK](#4-construire-lapk)
-- [5. Installer sur la console](#5-installer-sur-la-console)
-- [6. Facultatif : activer le bridge mémoire](#6-facultatif--activer-le-bridge-mémoire)
+- [2. Installer le SDK Android](#2-installer-le-sdk-android)
+- [3. Construire l'APK](#3-construire-lapk)
+- [4. Installer sur la console](#4-installer-sur-la-console)
+- [5. Facultatif : activer le bridge mémoire](#5-facultatif--activer-le-bridge-mémoire)
 - [Mettre à jour](#mettre-à-jour)
 - [Dépannage](#dépannage)
 
@@ -17,16 +16,15 @@ téléchargement.
 
 ### Sur l'ordinateur
 
-| Outil                      | Version                    | Pour quoi faire                        | Vérifier            |
-| -------------------------- | -------------------------- | -------------------------------------- | ------------------- |
-| Git                        | récente                    | récupérer le projet                    | `git --version`     |
-| JDK                        | 17 ou plus                 | compiler le code Java, signer l'APK    | `javac -version`    |
-| Node.js                    | 22 ou plus                 | récupérer les images, lancer les tests | `node --version`    |
-| SDK Android                | build-tools 36.0.0         | assembler l'APK (étape 3)              | voir étape 3        |
-| `adb`                      | fourni par le SDK          | installer sur la console               | `adb version`       |
-| `zip`                      | présent sur macOS et Linux | ajouter le code à l'APK                | `zip --version`     |
-| _Facultatif_ : Chrome      | récent                     | tests d'interface                      |                     |
-| _Facultatif_ : Python 3.9+ | avec `requests`, `bs4`     | régénérer le catalogue de données      | `python3 --version` |
+| Outil                      | Version                    | Pour quoi faire                     | Vérifier            |
+| -------------------------- | -------------------------- | ----------------------------------- | ------------------- |
+| Git                        | récente                    | récupérer le projet                 | `git --version`     |
+| JDK                        | 17 ou plus                 | compiler le code Java, signer l'APK | `javac -version`    |
+| SDK Android                | build-tools 36.0.0         | assembler l'APK (étape 2)           | voir étape 2        |
+| `adb`                      | fourni par le SDK          | installer sur la console            | `adb version`       |
+| `zip`                      | présent sur macOS et Linux | ajouter le code à l'APK             | `zip --version`     |
+| _Facultatif_ : Node.js 22+ | et Chrome                  | lancer les tests                    | `node --version`    |
+| _Facultatif_ : Python 3.9+ | avec `requests`, `bs4`     | régénérer le catalogue de données   | `python3 --version` |
 
 Le projet a été développé sur macOS. Les scripts sont en Bash et fonctionnent tels quels sous Linux ; sous
 Windows, utilisez WSL.
@@ -49,7 +47,7 @@ brew install node
   _Paramètres → Système → Options pour les développeurs → Débogage USB_.
 - Un câble USB qui transporte les données.
 
-Pour le bridge mémoire (étape 6) uniquement : l'émulateur **Eden v0.2.1** et votre propre copie de
+Pour le bridge mémoire (étape 5) uniquement : l'émulateur **Eden v0.2.1** et votre propre copie de
 _Pokémon Diamant Étincelant_ en version **1.3.0**. Le projet ne fournit ni l'un ni l'autre.
 
 ## 1. Récupérer le projet
@@ -64,33 +62,7 @@ cd carnet-sinnoh
 
 Toutes les commandes suivantes se lancent depuis ce dossier.
 
-## 2. Récupérer les images
-
-Les sprites des Pokémon et la carte de Sinnoh appartiennent à leurs ayants droit : ils ne sont pas
-redistribués dans le dépôt. Un script télécharge les sprites sur votre machine :
-
-```bash
-node scripts/fetch-assets.mjs
-```
-
-Il récupère 494 sprites (depuis [PokeAPI](https://github.com/PokeAPI/sprites) et
-[Poképédia](https://www.pokepedia.fr/)) et l'ancien fond de carte, vérifie le format et les dimensions de
-chaque fichier, et ne retélécharge pas ce qui est déjà là. `--force` remplace tout.
-
-**Il reste une image à ajouter à la main** : le fond de la carte, `assets/sinnoh-2d.png`. Son hébergeur refuse
-les téléchargements automatiques.
-
-1. Ouvrez <https://archives.bulbagarden.net/wiki/File:Sinnoh_BDSP.png> dans votre navigateur.
-2. Enregistrez l'image sous le nom `sinnoh-2d.png` dans le dossier `assets/`.
-
-Les repères de la carte ont été calibrés, en pourcentages, sur une image de **1268 × 734 pixels**. Avec un
-cadrage différent ils seront décalés ; ils se corrigent dans `catalog/map-anchors.json`
-(voir [DONNEES.md](DONNEES.md#régénérer-le-catalogue)).
-
-Sans cette image l'application se construit et fonctionne, mais l'onglet _Carte_ affiche ses repères sur un
-fond vide.
-
-## 3. Installer le SDK Android
+## 2. Installer le SDK Android
 
 Le projet n'utilise ni Android Studio ni Gradle : seulement trois outils du SDK (`aapt`, `d8`, `apksigner`)
 et la bibliothèque `android.jar`.
@@ -120,7 +92,7 @@ Vous avez déjà un SDK avec d'autres versions ? Indiquez-les au script plutôt 
 ANDROID_BUILD_TOOLS=35.0.0 ANDROID_PLATFORM=android-35 bash scripts/build.sh
 ```
 
-## 4. Construire l'APK
+## 3. Construire l'APK
 
 ```bash
 bash scripts/build.sh
@@ -148,7 +120,7 @@ Variables reconnues par le script :
 | `CARNET_KEYSTORE`          | `build/dev.keystore`    | fichier de clés de signature                          |
 | `CARNET_KEYSTORE_PASSWORD` | `android`               | son mot de passe                                      |
 
-## 5. Installer sur la console
+## 4. Installer sur la console
 
 Branchez la console en USB et acceptez la demande « Autoriser le débogage USB » qui s'affiche sur son écran.
 Vérifiez qu'elle est vue :
@@ -178,7 +150,7 @@ appuyez sur Y, puis _Modifier l'application → écran du bas_.
 
 L'application est installée. Tout ce qui suit est facultatif.
 
-## 6. Facultatif : activer le bridge mémoire
+## 5. Facultatif : activer le bridge mémoire
 
 Le bridge remplit tout seul la zone actuelle, le sac, l'équipe et la fiche du Pokémon adverse. Il lit la
 mémoire du jeu à travers le débogueur GDB intégré à Eden, sur la console elle-même : aucun ordinateur, aucun
@@ -222,15 +194,13 @@ Le carnet est conservé, à condition d'avoir gardé `build/dev.keystore`.
 
 | Symptôme                                                    | Cause et solution                                                                                                                           |
 | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| `build: build-tools not found in …`                         | Le SDK n'est pas là où le script le cherche. Définissez `ANDROID_SDK_ROOT` (étape 3), ou `ANDROID_BUILD_TOOLS` si votre version diffère.    |
+| `build: build-tools not found in …`                         | Le SDK n'est pas là où le script le cherche. Définissez `ANDROID_SDK_ROOT` (étape 2), ou `ANDROID_BUILD_TOOLS` si votre version diffère.    |
 | `build: platform not found: …/android.jar`                  | La plateforme n'est pas installée, ou sous un autre nom : `ls "$ANDROID_SDK_ROOT/platforms"` puis `ANDROID_PLATFORM=<nom>`.                 |
-| `build: sprites are missing`                                | L'étape 2 n'a pas été faite : `node scripts/fetch-assets.mjs`.                                                                              |
 | `error: release version 8 not supported`                    | Votre JDK ne sait plus produire du code Java 8. Utilisez un JDK 17 à 25 (le projet est testé avec le 25).                                   |
 | `adb devices` n'affiche rien                                | Câble de charge seul, ou débogage USB désactivé.                                                                                            |
 | `adb devices` affiche `unauthorized`                        | Acceptez la demande d'autorisation sur l'écran de la console.                                                                               |
 | `INSTALL_FAILED_UPDATE_INCOMPATIBLE`                        | L'application installée a été signée avec une autre clé. Exportez votre carnet, désinstallez (`adb uninstall fr.dabi.sinnoh`), réinstallez. |
 | L'application s'ouvre sur le mauvais écran                  | Passez `CARNET_DISPLAY`. `adb shell dumpsys display \| grep mDisplayId` liste les écrans.                                                   |
-| L'onglet _Carte_ n'a pas de fond                            | `assets/sinnoh-2d.png` est absent (étape 2). Ajoutez-le, reconstruisez.                                                                     |
 | Combat : « Lecture indisponible · … Connection refused »    | Eden n'est pas lancé, ou son stub GDB n'est pas activé, ou le jeu a été lancé avant d'activer l'option.                                     |
 | Combat : « Jeu/version non compatible · BDSP 1.3.0 requis » | Le jeu en cours n'est pas Diamant Étincelant 1.3.0. Le bridge refuse volontairement de lire.                                                |
 | Combat : « Lecture interrompue · reconnexion en cours »     | Plus de données depuis dix secondes (jeu en pause, application passée en arrière-plan). La lecture reprend seule.                           |

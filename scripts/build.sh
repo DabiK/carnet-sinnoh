@@ -27,7 +27,7 @@ fail() {
 
 [ -x "$BUILD_TOOLS/aapt" ] || fail "build-tools not found in $BUILD_TOOLS (set ANDROID_SDK_ROOT, see docs/INSTALLATION.md)"
 [ -f "$ANDROID_JAR" ] || fail "platform not found: $ANDROID_JAR"
-[ -f assets/sprites/387.png ] || fail "sprites are missing: run 'node scripts/fetch-assets.mjs' first"
+[ -f assets/sprites/387.png ] || fail "sprites are missing: restore assets/sprites with git, or run 'node scripts/fetch-assets.mjs'"
 [ -f assets/sinnoh-2d.png ] || echo "build: warning, assets/sinnoh-2d.png is missing: the map will have no background" >&2
 
 # Stale classes from a previous build would otherwise end up in the APK.

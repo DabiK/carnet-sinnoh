@@ -10,7 +10,8 @@ Il répond à trois questions pendant la partie : **où trouver ce Pokémon**, *
 celui que j'ai en face**.
 
 > Projet personnel de fan, non officiel, sans lien avec Nintendo, Creatures, GAME FREAK ou The Pokémon Company.
-> Le dépôt ne contient ni jeu, ni clé, ni image tirée du jeu. Voir [Crédits et licences](#crédits-et-licences).
+> Le dépôt ne contient ni jeu, ni clé. Les sprites et la carte de Sinnoh qu'il embarque restent la propriété de
+> leurs ayants droit. Voir [Crédits et licences](#crédits-et-licences).
 
 ## Ce que fait l'application
 
@@ -56,15 +57,14 @@ la connexion locale à Eden. Détails dans [docs/ARCHITECTURE.md](docs/ARCHITECT
 
 ## Démarrage rapide
 
-Il faut un JDK, Node.js 22+ et le SDK Android en ligne de commande. Le
+Il faut un JDK et le SDK Android en ligne de commande. Le
 **[tutoriel d'installation](docs/INSTALLATION.md)** détaille chaque étape, de l'ordinateur vierge à la console.
 
 ```bash
 git clone https://github.com/DabiK/carnet-sinnoh.git
 cd carnet-sinnoh
-node scripts/fetch-assets.mjs   # télécharge les sprites (non redistribués dans le dépôt)
-bash scripts/build.sh           # produit build/carnet-sinnoh.apk
-bash scripts/install.sh         # l'installe sur la console branchée en USB
+bash scripts/build.sh     # produit build/carnet-sinnoh.apk
+bash scripts/install.sh   # l'installe sur la console branchée en USB
 ```
 
 Pour seulement jeter un œil à l'interface, sans Android :
@@ -95,7 +95,7 @@ npm test
 | Suite                  | Ce qu'elle vérifie                                                                                | Besoin             |
 | ---------------------- | ------------------------------------------------------------------------------------------------- | ------------------ |
 | `npm run test:unit`    | Les règles de lecture des IV (15 contrôles)                                                       | Node.js            |
-| `npm run test:ui`      | L'interface réelle dans un Chrome sans fenêtre, à la taille de l'écran de la Thor (122 contrôles) | Chrome, images     |
+| `npm run test:ui`      | L'interface réelle dans un Chrome sans fenêtre, à la taille de l'écran de la Thor (122 contrôles) | Chrome             |
 | `npm run test:bridge`  | Le bridge complet contre un faux Eden et une mémoire de jeu synthétique (20 tests)                | JDK                |
 | `npm run test:catalog` | La cohérence du catalogue et le refus d'exécuter du Lua (9 tests)                                 | Python, `requests` |
 
@@ -126,7 +126,7 @@ docs/                       documentation
 - Combats doubles, changements de Pokémon et transformations n'ont pas été vérifiés en jeu.
 - Le débogueur d'Eden écoute sur toutes les interfaces réseau et autorise l'écriture mémoire, même si le
   carnet ne fait que lire en local : ne l'activez que sur un réseau de confiance.
-  [Détails](docs/INSTALLATION.md#6-facultatif--activer-le-bridge-mémoire).
+  [Détails](docs/INSTALLATION.md#5-facultatif--activer-le-bridge-mémoire).
 - Les repères de la carte sont régionaux et approximatifs, pas des positions exactes.
 - Le catalogue est un instantané hors ligne daté ; 16 conditions d'évolution restent marquées « à vérifier ».
 - L'interface est en français et filtre les rencontres de Diamant Étincelant.
@@ -141,8 +141,9 @@ docs/                       documentation
 - **Conseils de l'onglet _Ici_** : fiches rédigées pour l'application, avec lien vers les pages de
   [Pokébip](https://www.pokebip.com/) qui ont servi de référence.
 - **Police** : Nunito, sous licence OFL (`assets/fonts/OFL.txt`).
-- **Images** : les sprites et la carte de Sinnoh appartiennent à leurs ayants droit et **ne sont pas dans ce
-  dépôt** ; un script les récupère sur votre machine.
+- **Images** : les sprites (PokeAPI, Poképédia) et les cartes de Sinnoh (Bulbagarden Archives, Poképédia)
+  appartiennent à leurs ayants droit. Elles sont incluses pour que l'application fonctionne telle quelle, sans
+  aucune licence accordée sur elles, et seront retirées sur simple demande.
 
 Le détail des sources est dans [NOTICE.md](NOTICE.md) et [docs/DONNEES.md](docs/DONNEES.md). Le code n'a pas
 encore de licence explicite : en l'absence de fichier `LICENSE`, tous les droits sont réservés par l'auteur.

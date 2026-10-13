@@ -222,8 +222,6 @@ npm run test:ui
 carnet pendant l'exécution : les scénarios remplacent temporairement son contenu. Réinstallez ensuite une
 construction normale, qui n'est pas débogable.
 
-Les tests d'interface ont besoin des images (sprites et carte) : ils vérifient qu'elles se chargent.
-
 ### Tests du bridge : un faux Eden
 
 `tests/bridge/` ne demande ni console ni émulateur. `BdspImage` construit en mémoire les objets que le bridge

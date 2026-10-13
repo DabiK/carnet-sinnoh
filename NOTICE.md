@@ -4,8 +4,7 @@ Carnet Sinnoh est un projet de fan non officiel. Il n'est ni affilié à Nintend
 inc. ou The Pokémon Company, ni approuvé par eux. Pokémon et les noms de personnages Pokémon sont des marques
 de Nintendo.
 
-Ce dépôt ne contient aucun jeu, aucune clé, aucune sauvegarde, aucun extrait de la mémoire du jeu, et aucune
-image tirée du jeu.
+Ce dépôt ne contient aucun jeu, aucune clé, aucune sauvegarde et aucun extrait de la mémoire du jeu.
 
 ## Données redistribuées
 
@@ -38,9 +37,19 @@ attaques, liens de parenté entre espèces.
 
 `assets/fonts/Nunito.ttf` : Nunito, sous [SIL Open Font License 1.1](assets/fonts/OFL.txt).
 
-## Images non redistribuées
+## Images
 
-Les sprites des Pokémon et les cartes de Sinnoh sont des œuvres protégées de leurs ayants droit. Ils ne
-figurent pas dans ce dépôt. `scripts/fetch-assets.mjs` les télécharge sur la machine de l'utilisateur, pour
-son usage personnel, depuis [PokeAPI/sprites](https://github.com/PokeAPI/sprites) et Poképédia ; le fond de
-carte vient de [Bulbagarden Archives](https://archives.bulbagarden.net/wiki/File:Sinnoh_BDSP.png).
+Les sprites des Pokémon et les cartes de Sinnoh sont des œuvres protégées de Nintendo, Creatures Inc. et GAME
+FREAK inc. Ils sont inclus pour que l'application fonctionne telle quelle, dans un cadre personnel et non
+commercial. Aucune licence n'est accordée sur ces fichiers, et ils seront retirés sur simple demande de leurs
+ayants droit.
+
+- `assets/sprites/` : sprites de _Pokémon Diamant et Perle_, tels que distribués par
+  [PokeAPI/sprites](https://github.com/PokeAPI/sprites) ; dix-huit d'entre eux viennent de
+  [Poképédia](https://www.pokepedia.fr/) (liste dans `assets/js/sprite-catalog.js`).
+- `assets/sinnoh-2d.png` : carte de Sinnoh de _Diamant Étincelant et Perle Scintillante_, via
+  [Bulbagarden Archives](https://archives.bulbagarden.net/wiki/File:Sinnoh_BDSP.png).
+- `assets/sinnoh.png` : illustration de Sinnoh, via
+  [Poképédia](https://www.pokepedia.fr/Fichier:Sinnoh-DEPS.png).
+
+`scripts/fetch-assets.mjs` retélécharge les sprites et l'illustration depuis ces sources.
